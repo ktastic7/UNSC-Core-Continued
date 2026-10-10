@@ -2,13 +2,13 @@ addship atlas
 addship starliner
 addsupplies 1000
 addcrew 3000
-addship unsc_frigate_paris 4
-addship unsc_frigate_strident 2
-addship unsc_destroyer_halberd 2
-addship unsc_cruiser_marathon 2
-addweapon unsc_rampart_pd_coilguns 100
+addship unsc_cc_frigate_paris 4
+addship unsc_cc_frigate_strident 2
+addship unsc_cc_destroyer_halberd 2
+addship unsc_cc_cruiser_marathon 2
+addweapon unsc_cc_rampart_pd_coilguns 100
 addweapon harpoon 100
 addweapon harpoonpod 100
-# addweapon unsc_harpoon_cell 100  # Intentionally dormant (D-001)
+# addweapon unsc_cc_harpoon_cell 100  # Intentionally dormant (D-001)
 addweapon flak 100
-addwing unsc_fighter_sabre_wing 100
+addwing unsc_cc_fighter_sabre_wing 100

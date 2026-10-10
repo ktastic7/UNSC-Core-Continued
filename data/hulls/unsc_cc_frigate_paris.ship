@@ -1,0 +1,147 @@
+{
+  "hullName": "Paris-class",
+  "hullId": "unsc_cc_frigate_paris",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/unsc_core_continued/ships/unsc_cc_frigate_paris.png",
+  "style": "MIDLINE",
+  "height": 321,
+  "width": 138,
+  "center": [69, 153.5],
+  "collisionRadius": 186,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 185,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pointdefenseai",
+    "unsc_cc_hull_construction"
+  ],
+  "builtInWeapons": {
+    "WS0003": "unsc_cc_mark_ii_mac"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 75,
+      "locations": [32, 25.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -75,
+      "locations": [32, -25.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 75,
+      "locations": [46, 25.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -75,
+      "locations": [46, -25.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-96.5, 0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [31.5, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [56.5, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [158, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-150.5, 45.5],
+      "length": 43,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-151, -46.5],
+      "length": 43,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-147.5, 37],
+      "length": 22,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-147.5, -37.5],
+      "length": 22,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    169, -11,
+    114, -15,
+    112.5, -39,
+    -16.5, -39,
+    -29, -68,
+    -152, -68,
+    -152, -30.5,
+    -114.5, -26,
+    -114.5, 26,
+    -152, 30.5,
+    -150, 68,
+    -31, 68,
+    -21, 40,
+    108.5, 40.5,
+    114, 15,
+    169, 11
+  ]
+}

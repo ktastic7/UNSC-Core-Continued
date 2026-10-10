@@ -1,56 +1,56 @@
 {
-	"unsc_mac_fire":
+	"unsc_cc_mac_fire":
 	[
-		{"file":"sounds/UNSC/weapons/grifle_fire_01.ogg","pitch":1,"volume":0.4},
-		{"file":"sounds/UNSC/weapons/grifle_fire_02.ogg","pitch":1,"volume":0.4},
-		{"file":"sounds/UNSC/weapons/grifle_fire_03.ogg","pitch":1,"volume":0.4},
-		{"file":"sounds/UNSC/weapons/grifle_fire_04.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_mac_fire_01.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_mac_fire_02.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_mac_fire_03.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_mac_fire_04.ogg","pitch":1,"volume":0.4},
 	],
-	"unsc_mac_charge":
+	"unsc_cc_mac_charge":
 	[
-		{"file":"sounds/UNSC/weapons/chargegauss.ogg","pitch":0.8,"volume":0.9},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_mac_charge.ogg","pitch":0.8,"volume":0.9},
 	],
-	"unsc_sabre_autocannon_fire":
+	"unsc_cc_sabre_autocannon_fire":
 	[
-		{"file":"sounds/UNSC/weapons/falcon_turret1.ogg","pitch":1,"volume":0.1},
-		{"file":"sounds/UNSC/weapons/falcon_turret2.ogg","pitch":1,"volume":0.1},
-		{"file":"sounds/UNSC/weapons/falcon_turret3.ogg","pitch":1,"volume":0.1},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_sabre_autocannon_fire_01.ogg","pitch":1,"volume":0.1},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_sabre_autocannon_fire_02.ogg","pitch":1,"volume":0.1},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_sabre_autocannon_fire_03.ogg","pitch":1,"volume":0.1},
 	],
-	"unsc_rampart_pd_fire":
+	"unsc_cc_rampart_pd_fire":
 	[
-		{"file":"sounds/UNSC/weapons/sabre_turretss1.ogg","pitch":0.3,"volume":0.15},
-		{"file":"sounds/UNSC/weapons/sabre_turretss2.ogg","pitch":0.3,"volume":0.15},
-		{"file":"sounds/UNSC/weapons/sabre_turretss3.ogg","pitch":0.3,"volume":0.15},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_rampart_pd_fire_01.ogg","pitch":0.3,"volume":0.15},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_rampart_pd_fire_02.ogg","pitch":0.3,"volume":0.15},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_rampart_pd_fire_03.ogg","pitch":0.3,"volume":0.15},
 	],
-	"unsc_goalkeeper_pd_fire":
+	"unsc_cc_goalkeeper_pd_fire":
 	[
-		{"file":"sounds/UNSC/weapons/TRVulcan1.ogg","pitch":0.5,"volume":0.27},
-		{"file":"sounds/UNSC/weapons/TRVulcan2.ogg","pitch":0.5,"volume":0.27},
-		{"file":"sounds/UNSC/weapons/TRVulcan3.ogg","pitch":0.5,"volume":0.27},
-		{"file":"sounds/UNSC/weapons/TRVulcan4.ogg","pitch":0.5,"volume":0.27},
-		{"file":"sounds/UNSC/weapons/TRVulcan5.ogg","pitch":0.5,"volume":0.27},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_goalkeeper_pd_fire_01.ogg","pitch":0.5,"volume":0.27},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_goalkeeper_pd_fire_02.ogg","pitch":0.5,"volume":0.27},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_goalkeeper_pd_fire_03.ogg","pitch":0.5,"volume":0.27},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_goalkeeper_pd_fire_04.ogg","pitch":0.5,"volume":0.27},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_goalkeeper_pd_fire_05.ogg","pitch":0.5,"volume":0.27},
 	],
-	"unsc_spartan_dew_charge_down":
+	"unsc_cc_spartan_dew_charge_down":
 	[
-		{"file":"sounds/UNSC/weapons/spartanlaser_down1.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_spartan_dew_charge_down.ogg","pitch":1,"volume":0.9},
 	],
-	"unsc_spartan_dew_fire":
+	"unsc_cc_spartan_dew_fire":
 	[
-		{"file":"sounds/UNSC/weapons/spartanlaser_fire1only.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/unsc_core_continued/weapons/unsc_cc_spartan_dew_fire.ogg","pitch":1,"volume":0.9},
 	],
 	"music":{
 				
-			"unsc_intothebreach":[
-				{"file":"ODST_intothebreach.ogg","source":"sounds/UNSC/music/","volume":0.5,"randomStart":false},
+			"unsc_cc_intothebreach":[
+				{"file":"unsc_cc_intothebreach.ogg","source":"sounds/unsc_core_continued/music/","volume":0.5,"randomStart":false},
 			],
-			"unsc_powderkeg":[
-				{"file":"Reach_powderkeg.ogg","source":"sounds/UNSC/music/","volume":0.5,"randomStart":false},
+			"unsc_cc_powderkeg":[
+				{"file":"unsc_cc_powderkeg.ogg","source":"sounds/unsc_core_continued/music/","volume":0.5,"randomStart":false},
 			],
-			"unsc_swordbasecontrol":[
-				{"file":"Reach_swordbasecontrol.ogg","source":"sounds/UNSC/music/","volume":0.5,"randomStart":false},
+			"unsc_cc_swordbasecontrol":[
+				{"file":"unsc_cc_swordbasecontrol.ogg","source":"sounds/unsc_core_continued/music/","volume":0.5,"randomStart":false},
 			],
-			"unsc_ontheprowl":[
-				{"file":"Reach_ontheprowl.ogg","source":"sounds/UNSC/music/","volume":0.4,"randomStart":false},
+			"unsc_cc_ontheprowl":[
+				{"file":"unsc_cc_ontheprowl.ogg","source":"sounds/unsc_core_continued/music/","volume":0.4,"randomStart":false},
 			],
         }
 }

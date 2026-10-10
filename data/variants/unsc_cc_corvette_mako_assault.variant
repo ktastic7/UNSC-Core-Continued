@@ -1,0 +1,39 @@
+{
+  "variantId": "unsc_cc_corvette_mako_assault",
+  "hullId": "unsc_cc_corvette_mako",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymortar"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "railgun"
+    }
+    },
+	{
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "harpoon",
+        "WS0004": "harpoon"
+      }
+  }
+  ],
+  "modules": [],
+  "wings": []
+}

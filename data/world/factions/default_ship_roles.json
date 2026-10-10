@@ -5,38 +5,38 @@
 		
 	},
 	"combatSmall":{
-		"unsc_corvette_mako_strike": 1.5,
-		"unsc_corvette_mako_support": 2,
-		"unsc_corvette_mako_assault": 2,
-		"unsc_frigate_paris_aa": 2,
-		"unsc_frigate_paris_escort": 3,
-		"unsc_frigate_paris_strike": 3,
-		"unsc_frigate_paris_multirole": 2,
+		"unsc_cc_corvette_mako_strike": 1.5,
+		"unsc_cc_corvette_mako_support": 2,
+		"unsc_cc_corvette_mako_assault": 2,
+		"unsc_cc_frigate_paris_aa": 2,
+		"unsc_cc_frigate_paris_escort": 3,
+		"unsc_cc_frigate_paris_strike": 3,
+		"unsc_cc_frigate_paris_multirole": 2,
 	},
 	"combatMedium":{
-		"unsc_frigate_paris_aa": 2,
-		"unsc_frigate_paris_escort": 3,
-		"unsc_frigate_paris_strike": 3,
-		"unsc_frigate_paris_multirole": 2,
-		"unsc_frigate_strident_support": 1.5,
-		"unsc_frigate_strident_backline": 1.5,
+		"unsc_cc_frigate_paris_aa": 2,
+		"unsc_cc_frigate_paris_escort": 3,
+		"unsc_cc_frigate_paris_strike": 3,
+		"unsc_cc_frigate_paris_multirole": 2,
+		"unsc_cc_frigate_strident_support": 1.5,
+		"unsc_cc_frigate_strident_backline": 1.5,
 	},
 	"combatLarge":{
-		"unsc_destroyer_halberd_assault": 2,
-		"unsc_destroyer_halberd_strike": 4,
+		"unsc_cc_destroyer_halberd_assault": 2,
+		"unsc_cc_destroyer_halberd_strike": 4,
 	},
 	"combatCapital":{
-		"unsc_cruiser_marathon_fleet": 2,
-		"unsc_cruiser_halcyon_assault": 3,
+		"unsc_cc_cruiser_marathon_fleet": 2,
+		"unsc_cc_cruiser_halcyon_assault": 3,
 	},
 	
 	
 	# hybrid ships with good combat and cargo capacity
 	"combatFreighterSmall":{
-		"unsc_frigate_charon_logistics": 2,
+		"unsc_cc_frigate_charon_logistics": 2,
 	},
 	"combatFreighterMedium":{
-		"unsc_frigate_charon_logistics": 2,
+		"unsc_cc_frigate_charon_logistics": 2,
 	},
 	"combatFreighterLarge":{
 	},
@@ -46,19 +46,19 @@
 
 	# carriers
 	"carrierSmall":{
-		"unsc_frigate_strident_support": 2,
-		"unsc_frigate_strident_backline": 2,
+		"unsc_cc_frigate_strident_support": 2,
+		"unsc_cc_frigate_strident_backline": 2,
 	},
 	"carrierMedium":{
-		"unsc_carrier_punic_assault": 2,
-		"unsc_carrier_punic_strike": 2,
-		"unsc_carrier_punic_support": 2,
+		"unsc_cc_carrier_punic_assault": 2,
+		"unsc_cc_carrier_punic_strike": 2,
+		"unsc_cc_carrier_punic_support": 2,
 	},
 	"carrierLarge":{
-		"unsc_carrier_punic_assault": 1.2,
-		"unsc_carrier_punic_strike": 1.2,
-		"unsc_carrier_punic_support": 1.2,
-		"unsc_cruiser_marathon_fleet": 2,
+		"unsc_cc_carrier_punic_assault": 1.2,
+		"unsc_cc_carrier_punic_strike": 1.2,
+		"unsc_cc_carrier_punic_support": 1.2,
+		"unsc_cc_cruiser_marathon_fleet": 2,
 	},
 
 	# phase ships

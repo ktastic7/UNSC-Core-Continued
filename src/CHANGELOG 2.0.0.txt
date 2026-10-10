@@ -1,0 +1,76 @@
+UNSC Core Continued 2.0.0
+=========================
+
+MAJOR TECHNICAL IDENTITY BREAK
+------------------------------
+- New loader mod ID: unsc_core_continued.
+- New faction ID: unsc_cc.
+- Core-owned content uses the unsc_cc_* namespace and unsc_cc_bp blueprint tag.
+- Project Java classes moved under ktastic7.unsc.corecontinued.*.
+- Core uses its own Version Checker declaration, unsc_core_continued.version.
+- The legacy UNSC Continued 1.x update channel remains separate and frozen to
+  the legacy line.
+- No permanent old-ID alias/shim layer is included.
+
+SAVE MIGRATION
+--------------
+- Existing UNSC Continued 1.3.1 saves require the separately supplied ST-18
+  external migration tool before loading under Core 2.0.0.
+- The validated migration path operates on a copy and preserves the source save.
+- Fresh games are recommended for the complete coexistence/worldgen experience.
+
+HALO-MOD COEXISTENCE / WORLDGEN
+-------------------------------
+- Core remains a separately developed UNSC faction rather than merging into
+  Reborn or HomeSystems.
+- Core Epsilon Eridani uses technical ID unsc_cc_epsilon_eridani.
+- Fresh-game system placement is finalized after procgen with deterministic
+  nearest-clear placement and a 500-unit virtual Core placement-radius bonus.
+- The virtual bonus affects placement rejection only; it does not enlarge the
+  physical system or gravity well.
+- With supported UNSC Reborn enabled, Core displays "Epsilon Eridani (Core)".
+- Pairwise validation completed for Core + UNSC Reborn 0.6.5 and Core + Halo
+  HomeSystems 0.7.6.
+- No all-three support claim is made because Reborn and HomeSystems retain
+  independent conflicts outside Core's scope.
+
+RESOURCE / PRESENTATION CLEANUP
+-------------------------------
+- Core-owned graphics and audio moved under dedicated unsc_core_continued roots.
+- All 56 Core graphics/audio basenames standardized to lower-case unsc_cc_* names.
+- Added replacement faction flag, crest, and blueprint-package artwork.
+- Added green-primary / white-secondary segmented faction presentation.
+- Added a dedicated faction-aware UNSC Core simulator category.
+- Removed legacy explicit Default-category simulator entries.
+- Native military simulator roster is restricted to Core designs.
+
+FLEETS / FIGHTERS / DESIGN TYPE
+--------------------------------
+- Added curated non-priority civilian logistics access: Buffalo, Colossus, Atlas,
+  Dram, Phaeton, Prometheus, Mercury, and Valkyrie.
+- Broad vanilla blueprint tags remain removed, so vanilla warships are not treated
+  as native UNSC Core designs.
+- Sabre wing receives fighter5/fighter Autofit classification.
+- Longsword wing receives bomber5/bomber Autofit classification.
+- Player Autofit and NPC fleet inflation can now repopulate the authored carrier
+  fighter/bomber bays correctly.
+- The eight Core ships and both Core fighter hulls now use design/manufacturer
+  label "UNSC Core", separating them from other Halo mods in Codex/production UI.
+
+CARRIED-FORWARD CONTENT / INTEGRATIONS
+--------------------------------------
+- Preserves the authored Epsilon Eridani interpretation, Reach, Tribute,
+  Circumstance, Beta Gabriel, Casimir Station, Site 17 and associated exploration
+  content.
+- Preserves the authored wreck/recovery design.
+- Preserves Nexerelin colony-expedition naming support.
+- Preserves optional Industrial Evolution authored content and whitelist support.
+- Preserves supported Commissioned Crews, Starpocalypse, Treasure Hunt and other
+  integration surfaces under the Core namespace.
+
+RELEASE NOTES
+-------------
+- Starsector target: 0.98a-RC8.
+- Required dependency: LazyLib.
+- Core Continued 2.0.0 is intentionally save-breaking relative to unmigrated
+  Continued 1.3.1 technical identities.

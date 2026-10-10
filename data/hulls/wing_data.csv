@@ -1,6 +1,6 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
-unsc_fighter_sabre_wing,unsc_fighter_sabre_standard,"unsc_bp, unsc",3,,10,15,V,5000,500,,2,FIGHTER,Fighter,15,9000,,,,,,,,,,,,,
-unsc_bomber_longsword_wing,unsc_bomber_longsword_bomber,"unsc_bp, unsc",3,,10,15,V,6000,2000,,1,BOMBER,Bomber,15,11000,,,,,,,,,,,,,
+unsc_cc_fighter_sabre_wing,unsc_cc_fighter_sabre_standard,"fighter5, fighter, unsc_cc_bp, unsc_cc",3,,10,15,V,5000,500,,2,FIGHTER,Fighter,15,9000,,,,,,,,,,,,,
+unsc_cc_bomber_longsword_wing,unsc_cc_bomber_longsword_bomber,"bomber5, bomber, unsc_cc_bp, unsc_cc",3,,10,15,V,6000,2000,,1,BOMBER,Bomber,15,11000,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #lux_wing,lux_Fighter,"no_sell, fighter, remnant, fighter5, auto_fighter, merc",3,,6,10,V,4000,500,,4,FIGHTER,Fighter Drone,15,6000,,,,,,,,,,,,,23

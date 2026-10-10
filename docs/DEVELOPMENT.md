@@ -1,156 +1,73 @@
 # Development and Contribution Notes
 
-This document is for people who want to inspect the source, experiment locally, or contribute changes to **United Nations Space Command - Continued**.
-
-It intentionally covers only public source/contributor information. Internal project-management, validation, and release-governance documentation is maintained separately by the project.
+This document covers public source/contributor information for **UNSC Core Continued**.
 
 ## Repository Layout
 
-The repository contains the full playable mod together with its Java source and development utilities.
-
 ```text
-data/                   Runtime data/config/content
-graphics/               Runtime graphics
-sounds/                 Runtime music/sound
-jars/UNSC.jar           Compiled runtime JAR
-mod_info.json           Starsector mod metadata
-unsc_continued.version  Version Checker declaration
+data/                        Runtime data/config/content
+graphics/                    Runtime graphics
+sounds/                      Runtime music/sound
+jars/UNSC-Core-Continued.jar Compiled runtime JAR
+mod_info.json                Starsector mod metadata
+unsc_core_continued.version  Core Version Checker declaration
 
 src/
-  data/                 Java source
-  tools/                Development utilities
-  version-checker/      Version Checker reference/source files
+  ktastic7/unsc/corecontinued/  Java source
+  tools/                       Development utilities and migration/rename maps
+  version-checker/             Version Checker reference copies
 ```
 
 ## Target Environment
 
-Current target:
+Current target: Starsector `0.98a-RC8`.
 
-- Starsector `0.98a-RC8`
+Build/reference dependencies include the real Starsector API/runtime libraries, LazyLib, Nexerelin, and Industrial Evolution. LazyLib is required at runtime; Nexerelin and Industrial Evolution are optional runtime integrations but source compilation uses their real APIs.
 
-Current source/build dependencies include:
-
-- Starsector API/runtime libraries
-- LazyLib
-- Nexerelin
-- Industrial Evolution
-
-LazyLib is currently a declared required dependency.
-
-Nexerelin and Industrial Evolution are optional at runtime, but the source contains integration code for them. Anyone rebuilding the Java source should use the matching real APIs/dependencies rather than guessed replacement stubs.
+Do not substitute guessed API stubs for production builds.
 
 ## Runtime Identity
 
-Unless a future release explicitly changes them:
+Compatibility-sensitive Core identities:
 
-- loader mod ID: `UNSC`
-- faction ID: `unsc`
-- UNSC-owned subordinate content IDs use the lowercase `unsc_*` namespace
+- loader ID: `unsc_core_continued`
+- faction ID: `unsc_cc`
+- owned content prefix: `unsc_cc_`
+- blueprint tag: `unsc_cc_bp`
+- Java package root: `ktastic7.unsc.corecontinued.*`
+- system technical ID: `unsc_cc_epsilon_eridani`
 
-These IDs may affect compatibility and should not be renamed casually.
+Do not rename these casually.
 
 ## Java Source
 
-The public Java source is stored under:
+Java source is under:
 
-```text
-src/data/
-```
+`src/ktastic7/unsc/corecontinued/`
 
 The playable mod loads:
 
-```text
-jars/UNSC.jar
-```
+`jars/UNSC-Core-Continued.jar`
 
-The repository currently includes the compiled runtime JAR so the checked-out release tree remains close to the playable mod.
-
-A fully automated public build script is not yet provided. If you modify Java source, rebuild `UNSC.jar` against the appropriate Starsector and dependency libraries before testing the change in game.
+The repository includes the compiled runtime JAR so a checked-out release tree remains close to the playable mod.
 
 ## Development Utilities
 
-Development-only utilities are stored under:
+Development utilities and machine-readable change/migration maps are under `src/tools/`.
 
-```text
-src/tools/
-```
+## Version Checker
 
-These tools are intended to help inspect or validate project data and are not required for normal gameplay.
+Core uses:
 
-## Version Checker Files
+- `unsc_core_continued.version`
+- `data/config/version/version_files.csv`
 
-Version Checker-compatible metadata is stored at:
+Reference copies are under `src/version-checker/`.
 
-```text
-unsc_continued.version
-data/config/version/version_files.csv
-```
+The old `unsc_continued.version` belongs only to the frozen legacy repository/update line and must not be reintroduced here.
 
-Development reference copies may also be present under:
+## Contributions and Testing
 
-```text
-src/version-checker/
-```
+Use the actual Starsector/partner APIs, keep optional integrations isolated, avoid unrelated cleanup, and preserve compatibility-sensitive IDs unless a deliberate migration is part of the change.
 
-When changing version metadata, keep the shipped registration and declaration consistent.
-
-## Asset Changes
-
-Graphics and audio are tracked directly in Git.
-
-When changing an asset:
-
-- preserve the expected file format;
-- preserve dimensions/centering where the game depends on them;
-- avoid unnecessary recompression or format conversion;
-- verify visual/audio changes in game.
-
-The file:
-
-```text
-data/weapons/unsc_harpoon_cell.wpn~
-```
-
-is intentionally retained as a dormant asset. Do not remove it merely because its filename ends in `~`.
-
-## Coding and Compatibility Notes
-
-When contributing code:
-
-- use the actual Starsector and partner-mod APIs used by the project;
-- avoid guessing API constants, method signatures, or registry IDs;
-- avoid adding runtime reflection or direct filesystem access unless there is a clear, reviewed need;
-- keep optional-mod integrations isolated so the base mod remains loadable when those optional mods are absent;
-- avoid unrelated cleanup in the same change when possible;
-- preserve compatibility-sensitive IDs unless a deliberate migration is part of the change.
-
-## Testing Contributions
-
-At minimum, test the part of the mod you changed.
-
-Depending on the change, useful checks may include:
-
-- game startup;
-- new campaign creation;
-- Epsilon Eridani generation;
-- relevant markets or industries;
-- combat/refit behavior;
-- optional integration enabled/disabled behavior;
-- `starsector.log` review for new errors.
-
-A successful compile alone does not guarantee correct in-game behavior.
-
-## Submitting Changes
-
-When proposing a contribution:
-
-- explain what the change does and why;
-- keep the scope focused;
-- mention any save-compatibility implications;
-- mention which optional mods are affected;
-- include screenshots for visual changes when useful;
-- include relevant log excerpts or reproduction steps for bug fixes.
-
-Only submit code, art, audio, or other material that you have the right to contribute.
-
-See [../PERMISSIONS.md](../PERMISSIONS.md) and [../CREDITS.md](../CREDITS.md) before submitting third-party material.
+At minimum test the surface you changed. Depending on scope, include startup, new campaign/worldgen, market/integration checks, refit/combat, save loading, and `starsector.log` review.

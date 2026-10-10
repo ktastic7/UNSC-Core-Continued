@@ -1,13 +1,13 @@
 {
-  "id": "UNSC",
-  "name": "United Nations Space Command - Continued (1.3.1)",
+  "id": "unsc_core_continued",
+  "name": "UNSC Core Continued (2.0.0)",
   "author": "Original by AppleMarineXX, Continued by Kemptastic",
-  "version": "1.3.1",
-  "description": "Continuation of AppleMarineXX's United Nations Space Command faction mod for Starsector, based on the UNSC from the Halo franchise.",
+  "version": "2.0.0",
+  "description": "Core Continued successor to AppleMarineXX's United Nations Space Command faction mod for Starsector, independently namespaced for Halo-mod coexistence.",
   "gameVersion": "0.98a-RC8",
-  "modPlugin": "data.scripts.UNSCModPlugin",
+  "modPlugin": "ktastic7.unsc.corecontinued.UNSCModPlugin",
   "jars": [
-    "jars/UNSC.jar"
+    "jars/UNSC-Core-Continued.jar"
   ],
   "dependencies": [
     {

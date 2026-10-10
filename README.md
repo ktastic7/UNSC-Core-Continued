@@ -1,138 +1,117 @@
-# United Nations Space Command - Continued
+# UNSC Core Continued
 
-A continued version of AppleMarineXX's **United Nations Space Command** faction mod for [Starsector](https://fractalsoftworks.com/), based on the UNSC from the Halo universe.
+A continued version of AppleMarineXX's **United Nations Space Command** faction mod for [Starsector](https://fractalsoftworks.com/), maintained as an independently namespaced Core line for modern Halo-mod coexistence.
 
 **Original mod:** AppleMarineXX  
 **Continued and maintained by:** Kemptastic  
-**Current release:** 1.3.1  
+**Current release:** 2.0.0  
 **Starsector target:** 0.98a-RC8  
-**Loader mod ID:** `UNSC`  
-**Faction ID:** `unsc`
+**Loader mod ID:** `unsc_core_continued`  
+**Faction ID:** `unsc_cc`
 
-> **Legacy-line note:** 1.3.1 is the final release in the original UNSC Continued 1.x technical identity. Future UNSC Core Continued 2.x releases use a separate mod/update identity and are not automatic upgrades for legacy saves.
-
-> For normal installation, download the packaged runtime ZIP from the **GitHub Releases** page.  
-> GitHub's automatically generated "Source code" archives are not the playable mod package.
-
-## Overview
-
-UNSC Continued maintains and modernizes the original Halo-themed UNSC faction mod while preserving its established gameplay identity.
-
-The project includes:
-
-- UNSC ships, fighters, weapons, hullmods, faction data, doctrine, variants, graphics, music, and sound assets.
-- A hand-authored Epsilon Eridani system featuring Reach, Tribute, Circumstance, Beta Gabriel, Site 17, exploration content, derelicts, and other UNSC locations.
-- Nexerelin integration, including UNSC colony-expedition naming support.
-- Optional Industrial Evolution integration.
-- Compatibility data for supported third-party mods where applicable.
-- Version Checker-compatible update metadata beginning with 1.03.
-- Public Java source and development utilities under `src/`.
+> For normal installation, download the packaged runtime ZIP from the **GitHub Releases** page. GitHub's automatically generated source archives are not the normal playable package.
 
 ## Requirements
-
-### Required
 
 - **Starsector 0.98a-RC8**
 - **LazyLib**
 
-### Optional integrations
-
-Supported integration paths include:
-
-- **Nexerelin**
-- **Industrial Evolution**
-- **Commissioned Crews**
-- **Starpocalypse**
-
-Optional integrations are intended to remain inactive when their corresponding mod is absent unless otherwise documented.
-
-Version Checker-compatible metadata is included beginning with 1.03 and does **not** add a new hard runtime dependency.
+Supported optional integration surfaces include Nexerelin, Industrial Evolution, Commissioned Crews, Starpocalypse, Treasure Hunt, and Version Checker-compatible metadata.
 
 ## Installation
 
-1. Open the repository's **Releases** page.
-2. Download the attached runtime ZIP named like:
-   `United Nations Space Command - Continued (VERSION).zip`
-3. Extract the contained mod folder into your Starsector `mods` directory.
-4. Make sure only one copy of UNSC / UNSC Continued is enabled at a time.
-5. Enable **LazyLib** and any optional supported mods you use.
-6. Enable **United Nations Space Command - Continued** in the Starsector launcher.
+1. Download `UNSC Core Continued (2.0.0).zip` from the Releases page.
+2. Extract `UNSC Core Continued (2.0.0)` into the Starsector `mods` directory.
+3. Enable LazyLib.
+4. Enable **UNSC Core Continued**.
+5. Enable optional supported integrations as desired.
 
-The technical loader ID remains `UNSC` for compatibility.
+## Important: migrating a legacy 1.3.1 save
 
-## Save Compatibility
+Core Continued 2.0.0 is a deliberate technical-identity break from the legacy **UNSC Continued 1.3.1** line. Do **not** load an unmigrated 1.3.1 campaign directly under Core 2.0.0.
 
-The project completed a major identifier namespace migration in the 1.02m line.
+Use the separate release asset:
 
-- Releases using the modern namespace use canonical `unsc_*` content IDs.
-- Very old saves from before that migration may contain obsolete serialized IDs and may not load correctly with current releases.
-- The mod does not ship a broad automatic migration layer for those older saves.
+`ST-18-Phase3-B1e-Save-MigratorP1234.rar`
 
-Back up important saves before upgrading across major historical changes and review the release notes for the version you are installing.
+RAR password: `1234`
 
-## Repository Contents
+The validated migration workflow works on a copied save and preserves the original. See [docs/SAVE_MIGRATION_1.3.1_TO_2.0.0.md](docs/SAVE_MIGRATION_1.3.1_TO_2.0.0.md).
 
-This repository contains the full mod together with its public source.
+Fresh games are recommended when you want the full new world-generation/coexistence behavior.
+
+## Coexistence
+
+Validated pairwise configurations:
+
+- UNSC Core Continued by itself
+- UNSC Core Continued + UNSC Reborn 0.6.5
+- UNSC Core Continued + Halo HomeSystems 0.7.6
+
+An all-three support claim is **not** made because Reborn and HomeSystems retain independent conflicts outside Core Continued's ownership.
+
+Core uses:
+
+- loader ID `unsc_core_continued`
+- faction ID `unsc_cc`
+- owned content namespace `unsc_cc_*`
+- blueprint tag `unsc_cc_bp`
+- Java package root `ktastic7.unsc.corecontinued.*`
+- Epsilon Eridani technical ID `unsc_cc_epsilon_eridani`
+
+When supported UNSC Reborn is present, Core's system displays as **Epsilon Eridani (Core)** while retaining its own technical identity.
+
+## 2.0.0 highlights
+
+- Complete Core loader/faction/content/Java/worldgen namespace break from the legacy 1.x line.
+- Namespaced Core graphics/audio resources.
+- Dedicated **UNSC Core** simulator category with a Core-only military roster.
+- Replacement faction flag, crest, and blueprint-package artwork.
+- Green-primary / white-secondary faction presentation.
+- Curated civilian logistics access for non-patrol fleets without making vanilla warships native Core designs.
+- Corrected Sabre/Longsword Autofit classification so player Autofit and NPC fleet inflation can populate authored carrier bays.
+- Core ships and fighters use **UNSC Core** as their design/manufacturer label in Codex and production UI.
+- Nexerelin colony naming and optional Industrial Evolution authored content carried forward under the Core namespace.
+
+## Repository layout
 
 ```text
-UNSC-Continued/
-├── data/                  Runtime data/config/content
-├── graphics/              Runtime graphics
-├── sounds/                Runtime sound/music
-├── jars/UNSC.jar          Compiled runtime JAR
-├── mod_info.json          Starsector mod metadata
-├── unsc_continued.version Version Checker declaration
-├── src/                   Java source and development utilities
-└── docs/                  Public contributor/download documentation
+data/                        Runtime data/config/content
+graphics/                    Runtime graphics
+sounds/                      Runtime music/sound
+jars/UNSC-Core-Continued.jar Compiled runtime JAR
+mod_info.json                Starsector mod metadata
+unsc_core_continued.version  Core 2.x Version Checker declaration
+src/                         Java source and development utilities
+docs/                        Public contributor/download/migration documentation
 ```
 
-For source-oriented information, see [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
-
-For release/download information, see [docs/RELEASE_PROCESS.md](docs/RELEASE_PROCESS.md).
+See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for source-oriented notes and [docs/RELEASE_PROCESS.md](docs/RELEASE_PROCESS.md) for download/release-file guidance.
 
 ## Version Checker
 
-Beginning with 1.03, the repository includes:
+Core Continued uses its own 2.x declaration:
 
-```text
-unsc_continued.version
-```
+`unsc_core_continued.version`
 
-and the shipped registration file:
+The legacy `unsc_continued.version` channel remains in the legacy repository and is not used to auto-upgrade 1.x users across the save-breaking boundary.
 
-```text
-data/config/version/version_files.csv
-```
+## Reporting bugs
 
-These files allow compatible Version Checker implementations to identify the current public release.
+When reporting a reproducible issue, include:
 
-## Reporting Bugs
+- Core Continued version
+- Starsector version
+- relevant mod list
+- whether Nexerelin and/or Industrial Evolution are enabled
+- what you were doing when the issue occurred
+- `starsector.log` when applicable
+- screenshots for visual/world-generation issues
 
-When reporting a reproducible problem, please include as much of the following as practical:
-
-- UNSC Continued version.
-- Starsector version.
-- Whether Nexerelin and/or Industrial Evolution are enabled.
-- A short description of what you were doing when the problem appeared.
-- `starsector.log` when the issue may involve loading, scripts, world generation, markets, or integrations.
-- A screenshot when the issue is primarily visual.
-
-GitHub Issues are the preferred public place for reproducible bug reports when issue tracking is enabled for the project.
-
-## Contributing
-
-Contributions are welcome when they fit the project's scope and permissions.
-
-Before submitting code or assets, please read:
-
-- [CREDITS.md](CREDITS.md)
-- [PERMISSIONS.md](PERMISSIONS.md)
-- [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)
-
-## Credits and Permissions
+## Credits and permissions
 
 The original mod was created by **AppleMarineXX** and is continued by **Kemptastic** with the original author's permission.
 
-See [CREDITS.md](CREDITS.md) and [PERMISSIONS.md](PERMISSIONS.md) for additional information.
+See [CREDITS.md](CREDITS.md) and [PERMISSIONS.md](PERMISSIONS.md).
 
-This is a fan-made Starsector mod. Starsector, Halo, and related names, trademarks, artwork, audio, and other intellectual property remain the property of their respective rights holders. This project is not affiliated with or endorsed by Fractal Softworks, Microsoft, or the relevant Halo rights holders.
+This is a fan-made Starsector/Halo mod and is not affiliated with or endorsed by Fractal Softworks, Microsoft, or the relevant Halo rights holders.

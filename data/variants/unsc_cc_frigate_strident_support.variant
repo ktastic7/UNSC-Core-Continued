@@ -1,0 +1,53 @@
+{
+  "variantId": "unsc_cc_frigate_strident_support",
+  "hullId": "unsc_cc_frigate_strident",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "unsc_cc_mark_iv_mac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "unsc_cc_rampart_pd_coilguns",
+        "WS0002": "unsc_cc_rampart_pd_coilguns",
+        "WS0003": "unsc_cc_rampart_pd_coilguns",
+        "WS0004": "unsc_cc_rampart_pd_coilguns"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "unsc_cc_fighter_sabre_wing"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "hullName": "Punic-II",
+  "hullId": "unsc_cc_carrier_punic",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/unsc_core_continued/ships/unsc_cc_carrier_punic.png",
+  "style": "MIDLINE",
+  "height": 478,
+  "width": 119,
+  "center": [57, 239],
+  "collisionRadius": 245,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 260,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "unsc_cc_hull_construction"
+  ],
+  "builtInWeapons": {
+    "WS0011": "unsc_cc_mark_ii_mac"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": -0,
+      "locations": [189.5, -2.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": -180,
+      "locations": [-92.5, -2.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 95,
+      "locations": [-23, 41]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -95,
+      "locations": [-23, -46]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 75,
+      "locations": [127, 41]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -75,
+      "locations": [126.5, -45.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [91.5, -2.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [125.5, -2.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [215.5, -2.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        58, 37,
+        68.5, 37,
+        78, 37
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        79, -35,
+        58, -35,
+        68, -35
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-212, -2.5],
+      "length": 92.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-235, -24.5],
+      "length": 52.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-233.5, 20.5],
+      "length": 52.5,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    240, -11.5,
+    130.5, -60.5,
+    -15.5, -61,
+    -96.5, -49,
+    -238, -53,
+    -238.5, 50.5,
+    -91.5, 44,
+    -18.5, 58.5,
+    130, 58.5,
+    240, 7
+  ]
+}

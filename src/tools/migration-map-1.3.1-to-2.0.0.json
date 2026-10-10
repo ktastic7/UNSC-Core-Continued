@@ -1,0 +1,3590 @@
+{
+  "schema": "unsc-core-continued-migration-map",
+  "schema_version": 3,
+  "generated_date": "2026-10-07",
+  "status": "PHASE_4_IMPLEMENTATION_AUTHORITY_AMENDED_FROM_PHASE_3_SEALED_MAP",
+  "migration": {
+    "from_release": "1.3.1",
+    "to_release": "2.0.0",
+    "legacy_repository": "ktastic7/UNSC-Continued",
+    "core_repository": "ktastic7/UNSC-Core-Continued",
+    "legacy_tag": "v1.3.1",
+    "legacy_merge_commit": "e7814a5431e83ad52331b47ec40ef21627cbb588",
+    "core_phase_1_baseline_commit": "482e77f8f5db9d0fb2b6293a939d830d7b4e5d78",
+    "runtime_sha256": "498fac5fee82146ffe266f0373bd9d23585f706a640c41cf805ce5f8add5898c",
+    "development_source_sha256": "a36a37ca617816bc7f130397478ef7d3273c654001841f9f6ba526105cdf04ba",
+    "partner_evidence": {
+      "UNSC_Reborn_0.6.5_sha256": "557419f3f09cbe2b961b7290b4347e6cb3bc72cea65c2e1fde09f68f418dfd19",
+      "Halo_HomeSystems_0.7.6_sha256": "ff7560173fffce071317a1d4ab1ea8492e935e87f65fa418f4dd88c43f7f1930"
+    }
+  },
+  "locked_policy": {
+    "loader_mod_id": "unsc_core_continued",
+    "faction_id": "unsc_cc",
+    "owned_prefix": "unsc_cc_",
+    "blueprint_tag": "unsc_cc_bp",
+    "java_package_root": "ktastic7.unsc.corecontinued",
+    "version_master": "unsc_core_continued.version",
+    "system_unique_id": "unsc_cc_epsilon_eridani",
+    "permanent_legacy_alias_layer": false,
+    "save_migration": "external_mapping_driven_PowerShell_with_cmd_launcher",
+    "blind_global_replacement": false
+  },
+  "identifier_mappings": [
+    {
+      "old": "unsc_bp",
+      "new": "unsc_cc_bp",
+      "category": "blueprint_tag",
+      "roles": [
+        "blueprint_content_tag"
+      ],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "medium",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/special_items.csv",
+        "runtime:data/hulls/ship_data.csv",
+        "runtime:data/hulls/wing_data.csv",
+        "runtime:data/weapons/weapon_data.csv",
+        "runtime:data/world/factions/unsc.faction"
+      ]
+    },
+    {
+      "old": "unsc_beta_gabriel",
+      "new": "unsc_cc_beta_gabriel",
+      "category": "campaign_body",
+      "roles": [
+        "campaign_id",
+        "custom_description_id"
+      ],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/strings/descriptions.csv",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_circumstance",
+      "new": "unsc_cc_circumstance",
+      "category": "campaign_body",
+      "roles": [
+        "campaign_id",
+        "custom_description_id"
+      ],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/strings/descriptions.csv",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_csodaszarvas",
+      "new": "unsc_cc_csodaszarvas",
+      "category": "campaign_body",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_emese",
+      "new": "unsc_cc_emese",
+      "category": "campaign_body",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_epsilon_eridani_i",
+      "new": "unsc_cc_epsilon_eridani_i",
+      "category": "campaign_body",
+      "roles": [
+        "campaign_id",
+        "custom_description_id"
+      ],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/strings/descriptions.csv",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_reach",
+      "new": "unsc_cc_reach",
+      "category": "campaign_body",
+      "roles": [
+        "campaign_id",
+        "custom_description_id",
+        "settings_illustration_alias"
+      ],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/settings.json",
+        "runtime:data/strings/descriptions.csv",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_site_17",
+      "new": "unsc_cc_site_17",
+      "category": "campaign_body",
+      "roles": [
+        "campaign_id",
+        "custom_description_id"
+      ],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/strings/descriptions.csv",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_tantalus",
+      "new": "unsc_cc_tantalus",
+      "category": "campaign_body",
+      "roles": [
+        "campaign_id",
+        "custom_description_id"
+      ],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/strings/descriptions.csv",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_tribute",
+      "new": "unsc_cc_tribute",
+      "category": "campaign_body",
+      "roles": [
+        "campaign_id",
+        "custom_description_id",
+        "settings_illustration_alias"
+      ],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/settings.json",
+        "runtime:data/strings/descriptions.csv",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_turul",
+      "new": "unsc_cc_turul",
+      "category": "campaign_body",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_casimir_station",
+      "new": "unsc_cc_casimir_station",
+      "category": "campaign_entity",
+      "roles": [
+        "campaign_id",
+        "custom_description_id",
+        "settings_illustration_alias"
+      ],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/settings.json",
+        "runtime:data/strings/descriptions.csv",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_epsilon_eridani_gate",
+      "new": "unsc_cc_epsilon_eridani_gate",
+      "category": "campaign_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_epsilon_eridani_relay",
+      "new": "unsc_cc_epsilon_eridani_relay",
+      "category": "campaign_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_indevo_arsenal_station",
+      "new": "unsc_cc_indevo_arsenal_station",
+      "category": "campaign_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCIndEvoIntegration.java"
+      ]
+    },
+    {
+      "old": "unsc_teller_station",
+      "new": "unsc_cc_teller_station",
+      "category": "campaign_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_debris_reach_alpha",
+      "new": "unsc_cc_debris_reach_alpha",
+      "category": "debris_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_debris_reach_beta",
+      "new": "unsc_cc_debris_reach_beta",
+      "category": "debris_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_debris_tantalus_alpha",
+      "new": "unsc_cc_debris_tantalus_alpha",
+      "category": "debris_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_debris_tantalus_beta",
+      "new": "unsc_cc_debris_tantalus_beta",
+      "category": "debris_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_debris_tribute",
+      "new": "unsc_cc_debris_tribute",
+      "category": "debris_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc",
+      "new": "unsc_cc",
+      "category": "faction_root",
+      "roles": [
+        "faction_id",
+        "Nex_faction_id",
+        "IndEvo_faction_id",
+        "Commissioned_Crews_faction_id",
+        "Starpocalypse_faction_id",
+        "wing_tag"
+      ],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "contextual_only",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:CHANGELOG 1.3.1.txt",
+        "runtime:README 1.3.1.txt",
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/campaign/special_items.csv",
+        "runtime:data/config/CommissionBonus/TechpriestCommission.csv",
+        "runtime:data/config/exerelinFactionConfig/mod_factions.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/config/indEvo/embassy_whitelist.csv",
+        "runtime:data/config/indEvo/printing_whitelist.csv",
+        "runtime:data/config/indEvo/reverse_engineering_whitelist.csv",
+        "runtime:data/config/settings.json",
+        "runtime:data/config/sounds.json",
+        "runtime:data/config/title_screen_variants.csv",
+        "runtime:data/config/version/version_files.csv",
+        "runtime:data/hullmods/hull_mods.csv",
+        "runtime:data/hulls/ship_data.csv",
+        "runtime:data/hulls/unsc_bomber_longsword.ship",
+        "runtime:data/hulls/unsc_carrier_punic.ship",
+        "runtime:data/hulls/unsc_corvette_mako.ship",
+        "runtime:data/hulls/unsc_cruiser_halcyon.ship",
+        "runtime:data/hulls/unsc_cruiser_marathon.ship",
+        "runtime:data/hulls/unsc_destroyer_halberd.ship",
+        "runtime:data/hulls/unsc_fighter_sabre.ship",
+        "runtime:data/hulls/unsc_frigate_charon.ship",
+        "runtime:data/hulls/unsc_frigate_paris.ship",
+        "runtime:data/hulls/unsc_frigate_strident.ship",
+        "runtime:data/hulls/wing_data.csv",
+        "runtime:data/starpocalypse/stationFactionMap.csv",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/strings/ship_names.json",
+        "runtime:data/variants/unsc_bomber_longsword_bomber.variant",
+        "runtime:data/variants/unsc_carrier_punic_assault.variant",
+        "runtime:data/variants/unsc_carrier_punic_strike.variant",
+        "runtime:data/variants/unsc_carrier_punic_support.variant",
+        "runtime:data/variants/unsc_corvette_mako_assault.variant",
+        "runtime:data/variants/unsc_corvette_mako_strike.variant",
+        "runtime:data/variants/unsc_corvette_mako_support.variant",
+        "runtime:data/variants/unsc_cruiser_halcyon_assault.variant",
+        "runtime:data/variants/unsc_cruiser_marathon_fleet.variant",
+        "runtime:data/variants/unsc_destroyer_halberd_assault.variant",
+        "runtime:data/variants/unsc_destroyer_halberd_strike.variant",
+        "runtime:data/variants/unsc_fighter_sabre_standard.variant",
+        "runtime:data/variants/unsc_frigate_charon_logistics.variant",
+        "runtime:data/variants/unsc_frigate_paris_aa.variant",
+        "runtime:data/variants/unsc_frigate_paris_escort.variant",
+        "runtime:data/variants/unsc_frigate_paris_logistics.variant",
+        "runtime:data/variants/unsc_frigate_paris_multirole.variant",
+        "runtime:data/variants/unsc_frigate_paris_strike.variant",
+        "runtime:data/variants/unsc_frigate_strident_backline.variant",
+        "runtime:data/variants/unsc_frigate_strident_support.variant",
+        "runtime:data/weapons/proj/unsc_harpoon_mrm.proj",
+        "runtime:data/weapons/proj/unsc_mac_shell.proj",
+        "runtime:data/weapons/proj/unsc_medusa_a2a_missile_projectile.proj",
+        "runtime:data/weapons/proj/unsc_pd_ballistic_shot.proj",
+        "runtime:data/weapons/unsc_asgm_10_strike_missile.wpn",
+        "runtime:data/weapons/unsc_goalkeeper_pd_chaingun.wpn",
+        "runtime:data/weapons/unsc_harpoon_cell.wpn~",
+        "runtime:data/weapons/unsc_mark_ii_dual_mac.wpn",
+        "runtime:data/weapons/unsc_mark_ii_light_mac.wpn",
+        "runtime:data/weapons/unsc_mark_ii_mac.wpn",
+        "runtime:data/weapons/unsc_mark_ii_rapid_fire_mac.wpn",
+        "runtime:data/weapons/unsc_mark_iv_mac.wpn",
+        "runtime:data/weapons/unsc_medusa_a2a_missile.wpn",
+        "runtime:data/weapons/unsc_rampart_pd_coilguns.wpn",
+        "runtime:data/weapons/unsc_sabre_light_autocannon.wpn",
+        "runtime:data/weapons/unsc_spartan_dew.wpn",
+        "runtime:data/weapons/weapon_data.csv",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "runtime:data/world/factions/factions.csv",
+        "runtime:data/world/factions/unsc.faction",
+        "runtime:startup.txt",
+        "runtime:unsc_continued.version",
+        "source:CHANGELOG 1.3.1.txt",
+        "source:README 1.3.1 SOURCE.txt",
+        "source:data/scripts/UNSCModPlugin.java",
+        "source:data/scripts/campaign/UNSCColonyNamer.java",
+        "source:data/scripts/world/UNSCIndEvoIntegration.java",
+        "source:data/scripts/world/UNSCStar.java",
+        "source:data/scripts/world/UNSCWorldGen.java",
+        "source:tools/validate_market_ids.py",
+        "source:version-checker/README.txt",
+        "source:version-checker/unsc_continued.version",
+        "source:version-checker/version_files.csv"
+      ],
+      "notes": "Bare token is not safe for blind global replacement; change only technical faction/tag contexts."
+    },
+    {
+      "old": "unsc_bomber_longsword_wing",
+      "new": "unsc_cc_bomber_longsword_wing",
+      "category": "fighter_wing",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/hulls/wing_data.csv",
+        "runtime:data/variants/unsc_carrier_punic_strike.variant",
+        "runtime:data/variants/unsc_carrier_punic_support.variant",
+        "runtime:data/variants/unsc_cruiser_marathon_fleet.variant",
+        "runtime:data/world/factions/unsc.faction"
+      ]
+    },
+    {
+      "old": "unsc_fighter_sabre_wing",
+      "new": "unsc_cc_fighter_sabre_wing",
+      "category": "fighter_wing",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/hulls/wing_data.csv",
+        "runtime:data/variants/unsc_carrier_punic_assault.variant",
+        "runtime:data/variants/unsc_carrier_punic_strike.variant",
+        "runtime:data/variants/unsc_carrier_punic_support.variant",
+        "runtime:data/variants/unsc_cruiser_marathon_fleet.variant",
+        "runtime:data/variants/unsc_frigate_strident_backline.variant",
+        "runtime:data/variants/unsc_frigate_strident_support.variant",
+        "runtime:data/world/factions/unsc.faction",
+        "runtime:startup.txt"
+      ]
+    },
+    {
+      "old": "unsc_bomber_longsword",
+      "new": "unsc_cc_bomber_longsword",
+      "category": "hull",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/hulls/ship_data.csv",
+        "runtime:data/hulls/unsc_bomber_longsword.ship",
+        "runtime:data/hulls/wing_data.csv",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_bomber_longsword_bomber.variant",
+        "runtime:data/variants/unsc_carrier_punic_strike.variant",
+        "runtime:data/variants/unsc_carrier_punic_support.variant",
+        "runtime:data/variants/unsc_cruiser_marathon_fleet.variant",
+        "runtime:data/world/factions/unsc.faction"
+      ]
+    },
+    {
+      "old": "unsc_carrier_punic",
+      "new": "unsc_cc_carrier_punic",
+      "category": "hull",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/config/indEvo/printing_whitelist.csv",
+        "runtime:data/config/indEvo/reverse_engineering_whitelist.csv",
+        "runtime:data/hulls/ship_data.csv",
+        "runtime:data/hulls/unsc_carrier_punic.ship",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_carrier_punic_assault.variant",
+        "runtime:data/variants/unsc_carrier_punic_strike.variant",
+        "runtime:data/variants/unsc_carrier_punic_support.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "runtime:data/world/factions/unsc.faction",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_corvette_mako",
+      "new": "unsc_cc_corvette_mako",
+      "category": "hull",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/config/indEvo/printing_whitelist.csv",
+        "runtime:data/config/indEvo/reverse_engineering_whitelist.csv",
+        "runtime:data/config/title_screen_variants.csv",
+        "runtime:data/hulls/ship_data.csv",
+        "runtime:data/hulls/unsc_corvette_mako.ship",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_corvette_mako_assault.variant",
+        "runtime:data/variants/unsc_corvette_mako_strike.variant",
+        "runtime:data/variants/unsc_corvette_mako_support.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "runtime:data/world/factions/unsc.faction",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_cruiser_halcyon",
+      "new": "unsc_cc_cruiser_halcyon",
+      "category": "hull",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/config/indEvo/printing_whitelist.csv",
+        "runtime:data/config/indEvo/reverse_engineering_whitelist.csv",
+        "runtime:data/config/title_screen_variants.csv",
+        "runtime:data/hulls/ship_data.csv",
+        "runtime:data/hulls/unsc_cruiser_halcyon.ship",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_cruiser_halcyon_assault.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "runtime:data/world/factions/unsc.faction",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_cruiser_marathon",
+      "new": "unsc_cc_cruiser_marathon",
+      "category": "hull",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/config/indEvo/printing_whitelist.csv",
+        "runtime:data/config/indEvo/reverse_engineering_whitelist.csv",
+        "runtime:data/config/title_screen_variants.csv",
+        "runtime:data/hulls/ship_data.csv",
+        "runtime:data/hulls/unsc_cruiser_marathon.ship",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_cruiser_marathon_fleet.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "runtime:data/world/factions/unsc.faction",
+        "runtime:startup.txt",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_destroyer_halberd",
+      "new": "unsc_cc_destroyer_halberd",
+      "category": "hull",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/config/indEvo/printing_whitelist.csv",
+        "runtime:data/config/indEvo/reverse_engineering_whitelist.csv",
+        "runtime:data/config/title_screen_variants.csv",
+        "runtime:data/hulls/ship_data.csv",
+        "runtime:data/hulls/unsc_destroyer_halberd.ship",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_destroyer_halberd_assault.variant",
+        "runtime:data/variants/unsc_destroyer_halberd_strike.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "runtime:data/world/factions/unsc.faction",
+        "runtime:startup.txt",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_fighter_sabre",
+      "new": "unsc_cc_fighter_sabre",
+      "category": "hull",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/hulls/ship_data.csv",
+        "runtime:data/hulls/unsc_fighter_sabre.ship",
+        "runtime:data/hulls/wing_data.csv",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_carrier_punic_assault.variant",
+        "runtime:data/variants/unsc_carrier_punic_strike.variant",
+        "runtime:data/variants/unsc_carrier_punic_support.variant",
+        "runtime:data/variants/unsc_cruiser_marathon_fleet.variant",
+        "runtime:data/variants/unsc_fighter_sabre_standard.variant",
+        "runtime:data/variants/unsc_frigate_strident_backline.variant",
+        "runtime:data/variants/unsc_frigate_strident_support.variant",
+        "runtime:data/world/factions/unsc.faction",
+        "runtime:startup.txt"
+      ]
+    },
+    {
+      "old": "unsc_frigate_charon",
+      "new": "unsc_cc_frigate_charon",
+      "category": "hull",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/config/indEvo/printing_whitelist.csv",
+        "runtime:data/config/indEvo/reverse_engineering_whitelist.csv",
+        "runtime:data/hulls/ship_data.csv",
+        "runtime:data/hulls/unsc_frigate_charon.ship",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_frigate_charon_logistics.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "runtime:data/world/factions/unsc.faction",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_frigate_paris",
+      "new": "unsc_cc_frigate_paris",
+      "category": "hull",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/config/indEvo/printing_whitelist.csv",
+        "runtime:data/config/indEvo/reverse_engineering_whitelist.csv",
+        "runtime:data/config/title_screen_variants.csv",
+        "runtime:data/hulls/ship_data.csv",
+        "runtime:data/hulls/unsc_frigate_paris.ship",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_frigate_paris_aa.variant",
+        "runtime:data/variants/unsc_frigate_paris_escort.variant",
+        "runtime:data/variants/unsc_frigate_paris_logistics.variant",
+        "runtime:data/variants/unsc_frigate_paris_multirole.variant",
+        "runtime:data/variants/unsc_frigate_paris_strike.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "runtime:data/world/factions/unsc.faction",
+        "runtime:startup.txt",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_frigate_strident",
+      "new": "unsc_cc_frigate_strident",
+      "category": "hull",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/config/indEvo/printing_whitelist.csv",
+        "runtime:data/config/indEvo/reverse_engineering_whitelist.csv",
+        "runtime:data/config/title_screen_variants.csv",
+        "runtime:data/hulls/ship_data.csv",
+        "runtime:data/hulls/unsc_frigate_strident.ship",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_frigate_strident_backline.variant",
+        "runtime:data/variants/unsc_frigate_strident_support.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "runtime:data/world/factions/unsc.faction",
+        "runtime:startup.txt",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_ai_integration",
+      "new": "unsc_cc_ai_integration",
+      "category": "hullmod",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/CommissionBonus/TechpriestCommission.csv",
+        "runtime:data/hullmods/hull_mods.csv"
+      ]
+    },
+    {
+      "old": "unsc_hull_construction",
+      "new": "unsc_cc_hull_construction",
+      "category": "hullmod",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/hullmods/hull_mods.csv",
+        "runtime:data/hulls/unsc_carrier_punic.ship",
+        "runtime:data/hulls/unsc_corvette_mako.ship",
+        "runtime:data/hulls/unsc_cruiser_halcyon.ship",
+        "runtime:data/hulls/unsc_cruiser_marathon.ship",
+        "runtime:data/hulls/unsc_destroyer_halberd.ship",
+        "runtime:data/hulls/unsc_frigate_charon.ship",
+        "runtime:data/hulls/unsc_frigate_paris.ship",
+        "runtime:data/hulls/unsc_frigate_strident.ship"
+      ]
+    },
+    {
+      "old": "unsc_internal",
+      "new": "unsc_cc_internal",
+      "category": "internal_comms",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low",
+      "observed_1_3_1_paths": [
+        "runtime:data/world/factions/unsc.faction"
+      ]
+    },
+    {
+      "old": "unsc_tribute_jump",
+      "new": "unsc_cc_tribute_jump",
+      "category": "jump_point",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_colony_namer_generic_candidates_v1",
+      "new": null,
+      "category": "legacy_persistent_cleanup",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "remove_if_present_after_external_migration",
+      "replacement_mode": "contextual_only",
+      "save_risk": "conditional",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/campaign/UNSCColonyNamer.java"
+      ],
+      "notes": "1.x transitional colony-namer key. Core runtime should not retain an old-ID alias/shim. A 1.3.1 save normally has already consumed this key."
+    },
+    {
+      "old": "unsc_colony_namer_generic_candidates_v2",
+      "new": null,
+      "category": "legacy_persistent_cleanup",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "remove_if_present_after_external_migration",
+      "replacement_mode": "contextual_only",
+      "save_risk": "conditional",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/campaign/UNSCColonyNamer.java"
+      ],
+      "notes": "1.x transitional colony-namer key. Core runtime should not retain an old-ID alias/shim. A 1.3.1 save normally has already consumed this key."
+    },
+    {
+      "old": "unsc_colony_namer_generic_candidates_v3",
+      "new": null,
+      "category": "legacy_persistent_cleanup",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "remove_if_present_after_external_migration",
+      "replacement_mode": "contextual_only",
+      "save_risk": "conditional",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/campaign/UNSCColonyNamer.java"
+      ],
+      "notes": "1.x transitional colony-namer key. Core runtime should not retain an old-ID alias/shim. A 1.3.1 save normally has already consumed this key."
+    },
+    {
+      "old": "UNSC",
+      "new": "unsc_core_continued",
+      "category": "loader_mod_id",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "contextual_only",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:CHANGELOG 1.3.1.txt",
+        "runtime:README 1.3.1.txt",
+        "runtime:data/campaign/special_items.csv",
+        "runtime:data/config/sounds.json",
+        "runtime:data/hullmods/CHM_UNSC.java",
+        "runtime:data/hullmods/UNSC_hullconstruction.java",
+        "runtime:data/hullmods/hull_mods.csv",
+        "runtime:data/hulls/ship_data.csv",
+        "runtime:data/hulls/unsc_bomber_longsword.ship",
+        "runtime:data/hulls/unsc_carrier_punic.ship",
+        "runtime:data/hulls/unsc_corvette_mako.ship",
+        "runtime:data/hulls/unsc_cruiser_halcyon.ship",
+        "runtime:data/hulls/unsc_cruiser_marathon.ship",
+        "runtime:data/hulls/unsc_destroyer_halberd.ship",
+        "runtime:data/hulls/unsc_fighter_sabre.ship",
+        "runtime:data/hulls/unsc_frigate_charon.ship",
+        "runtime:data/hulls/unsc_frigate_paris.ship",
+        "runtime:data/hulls/unsc_frigate_strident.ship",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/weapons/unsc_goalkeeper_pd_chaingun.wpn",
+        "runtime:data/weapons/unsc_mark_ii_dual_mac.wpn",
+        "runtime:data/weapons/unsc_mark_ii_light_mac.wpn",
+        "runtime:data/weapons/unsc_mark_ii_mac.wpn",
+        "runtime:data/weapons/unsc_mark_ii_rapid_fire_mac.wpn",
+        "runtime:data/weapons/unsc_mark_iv_mac.wpn",
+        "runtime:data/world/factions/unsc.faction",
+        "runtime:mod_info.json",
+        "runtime:unsc_continued.version",
+        "source:CHANGELOG 1.3.1.txt",
+        "source:README 1.3.1 SOURCE.txt",
+        "source:data/hullmods/CHM_UNSC.java",
+        "source:data/hullmods/UNSC_hullconstruction.java",
+        "source:data/scripts/UNSCModPlugin.java",
+        "source:data/scripts/campaign/UNSCColonyNamer.java",
+        "source:data/scripts/weapons/UNSC_GoalkeeperSpool.java",
+        "source:data/scripts/world/UNSCIndEvoIntegration.java",
+        "source:data/scripts/world/UNSCStar.java",
+        "source:data/scripts/world/UNSCWorldGen.java",
+        "source:data/scripts/world/UNSC_AddMarketplace.java",
+        "source:tools/README - ST-12 Market ID Validator.txt",
+        "source:tools/validate_market_ids.py",
+        "source:version-checker/README.txt",
+        "source:version-checker/unsc_continued.version"
+      ],
+      "notes": "Contextual technical identity only; do not replace display text/manufacturer/ship prefix 'UNSC'."
+    },
+    {
+      "old": "unsc_beta_gabriel_market",
+      "new": "unsc_cc_beta_gabriel_market",
+      "category": "market",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_casimir_station_market",
+      "new": "unsc_cc_casimir_station_market",
+      "category": "market",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_circumstance_market",
+      "new": "unsc_cc_circumstance_market",
+      "category": "market",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_reach_market",
+      "new": "unsc_cc_reach_market",
+      "category": "market",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_teller_station_market",
+      "new": "unsc_cc_teller_station_market",
+      "category": "market",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_tribute_market",
+      "new": "unsc_cc_tribute_market",
+      "category": "market",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "$unsc_colony_name_processed",
+      "new": "$unsc_cc_colony_name_processed",
+      "category": "persistent_memory_key",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/campaign/UNSCColonyNamer.java"
+      ]
+    },
+    {
+      "old": "unsc_colony_namer_next_sequence_v1",
+      "new": "unsc_cc_colony_namer_next_sequence_v1",
+      "category": "persistent_sector_key",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/campaign/UNSCColonyNamer.java"
+      ]
+    },
+    {
+      "old": "unsc_colony_namer_tracked_expeditions_v1",
+      "new": "unsc_cc_colony_namer_tracked_expeditions_v1",
+      "category": "persistent_sector_key",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/campaign/UNSCColonyNamer.java"
+      ]
+    },
+    {
+      "old": "unsc_harpoon_mrm",
+      "new": "unsc_cc_harpoon_mrm",
+      "category": "projectile",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low_indirect",
+      "observed_1_3_1_paths": [
+        "runtime:data/weapons/proj/unsc_harpoon_mrm.proj",
+        "runtime:data/weapons/unsc_harpoon_cell.wpn~"
+      ]
+    },
+    {
+      "old": "unsc_mac_shell",
+      "new": "unsc_cc_mac_shell",
+      "category": "projectile",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low_indirect",
+      "observed_1_3_1_paths": [
+        "runtime:data/weapons/proj/unsc_mac_shell.proj",
+        "runtime:data/weapons/unsc_mark_ii_dual_mac.wpn",
+        "runtime:data/weapons/unsc_mark_ii_light_mac.wpn",
+        "runtime:data/weapons/unsc_mark_ii_mac.wpn",
+        "runtime:data/weapons/unsc_mark_ii_rapid_fire_mac.wpn",
+        "runtime:data/weapons/unsc_mark_iv_mac.wpn"
+      ]
+    },
+    {
+      "old": "unsc_medusa_a2a_missile_projectile",
+      "new": "unsc_cc_medusa_a2a_missile_projectile",
+      "category": "projectile",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low_indirect",
+      "observed_1_3_1_paths": [
+        "runtime:data/weapons/proj/unsc_medusa_a2a_missile_projectile.proj",
+        "runtime:data/weapons/unsc_medusa_a2a_missile.wpn"
+      ]
+    },
+    {
+      "old": "unsc_pd_ballistic_shot",
+      "new": "unsc_cc_pd_ballistic_shot",
+      "category": "projectile",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low_indirect",
+      "observed_1_3_1_paths": [
+        "runtime:data/weapons/proj/unsc_pd_ballistic_shot.proj",
+        "runtime:data/weapons/unsc_goalkeeper_pd_chaingun.wpn",
+        "runtime:data/weapons/unsc_rampart_pd_coilguns.wpn"
+      ]
+    },
+    {
+      "old": "unsc_equipment_cache",
+      "new": "unsc_cc_equipment_cache",
+      "category": "salvage_cache_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_weapons_cache_deep",
+      "new": "unsc_cc_weapons_cache_deep",
+      "category": "salvage_cache_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_weapons_cache_outer",
+      "new": "unsc_cc_weapons_cache_outer",
+      "category": "salvage_cache_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_outer_research_station",
+      "new": "unsc_cc_outer_research_station",
+      "category": "salvage_station_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_tantalus_habitat",
+      "new": "unsc_cc_tantalus_habitat",
+      "category": "salvage_station_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_names",
+      "new": "unsc_cc_names",
+      "category": "ship_name_source",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "medium",
+      "observed_1_3_1_paths": [
+        "runtime:data/strings/ship_names.json",
+        "runtime:data/world/factions/unsc.faction"
+      ]
+    },
+    {
+      "old": "unsc_goalkeeper_pd_fire",
+      "new": "unsc_cc_goalkeeper_pd_fire",
+      "category": "sound_id",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low_indirect",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/sounds.json",
+        "runtime:data/weapons/unsc_goalkeeper_pd_chaingun.wpn"
+      ]
+    },
+    {
+      "old": "unsc_intothebreach",
+      "new": "unsc_cc_intothebreach",
+      "category": "sound_id",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low_indirect",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/sounds.json",
+        "runtime:data/world/factions/unsc.faction"
+      ]
+    },
+    {
+      "old": "unsc_mac_charge",
+      "new": "unsc_cc_mac_charge",
+      "category": "sound_id",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low_indirect",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/sounds.json",
+        "runtime:data/weapons/unsc_mark_ii_dual_mac.wpn",
+        "runtime:data/weapons/unsc_mark_ii_light_mac.wpn",
+        "runtime:data/weapons/unsc_mark_ii_mac.wpn",
+        "runtime:data/weapons/unsc_mark_ii_rapid_fire_mac.wpn",
+        "runtime:data/weapons/unsc_mark_iv_mac.wpn"
+      ]
+    },
+    {
+      "old": "unsc_mac_fire",
+      "new": "unsc_cc_mac_fire",
+      "category": "sound_id",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low_indirect",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/sounds.json",
+        "runtime:data/weapons/unsc_mark_ii_dual_mac.wpn",
+        "runtime:data/weapons/unsc_mark_ii_light_mac.wpn",
+        "runtime:data/weapons/unsc_mark_ii_mac.wpn",
+        "runtime:data/weapons/unsc_mark_ii_rapid_fire_mac.wpn",
+        "runtime:data/weapons/unsc_mark_iv_mac.wpn"
+      ]
+    },
+    {
+      "old": "unsc_ontheprowl",
+      "new": "unsc_cc_ontheprowl",
+      "category": "sound_id",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low_indirect",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/sounds.json",
+        "runtime:data/world/factions/unsc.faction"
+      ]
+    },
+    {
+      "old": "unsc_powderkeg",
+      "new": "unsc_cc_powderkeg",
+      "category": "sound_id",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low_indirect",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/sounds.json",
+        "runtime:data/world/factions/unsc.faction"
+      ]
+    },
+    {
+      "old": "unsc_rampart_pd_fire",
+      "new": "unsc_cc_rampart_pd_fire",
+      "category": "sound_id",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low_indirect",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/sounds.json",
+        "runtime:data/weapons/unsc_rampart_pd_coilguns.wpn"
+      ]
+    },
+    {
+      "old": "unsc_sabre_autocannon_fire",
+      "new": "unsc_cc_sabre_autocannon_fire",
+      "category": "sound_id",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low_indirect",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/sounds.json",
+        "runtime:data/weapons/unsc_sabre_light_autocannon.wpn"
+      ]
+    },
+    {
+      "old": "unsc_spartan_dew_charge_down",
+      "new": "unsc_cc_spartan_dew_charge_down",
+      "category": "sound_id",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low_indirect",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/sounds.json",
+        "runtime:data/weapons/unsc_spartan_dew.wpn"
+      ]
+    },
+    {
+      "old": "unsc_spartan_dew_fire",
+      "new": "unsc_cc_spartan_dew_fire",
+      "category": "sound_id",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low_indirect",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/sounds.json",
+        "runtime:data/weapons/unsc_spartan_dew.wpn"
+      ]
+    },
+    {
+      "old": "unsc_swordbasecontrol",
+      "new": "unsc_cc_swordbasecontrol",
+      "category": "sound_id",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "low_indirect",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/sounds.json",
+        "runtime:data/world/factions/unsc.faction"
+      ]
+    },
+    {
+      "old": "unsc_package_bp",
+      "new": "unsc_cc_package_bp",
+      "category": "special_item",
+      "roles": [
+        "special_item_id",
+        "settings_blueprint_alias",
+        "Nex_start_item",
+        "Treasure_Hunt_one_time_item"
+      ],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/special_items.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/config/settings.json",
+        "source:README 1.3.1 SOURCE.txt"
+      ]
+    },
+    {
+      "old": null,
+      "new": "unsc_cc_epsilon_eridani",
+      "category": "star_system_unique_id",
+      "roles": [
+        "StarSystemAPI.optionalUniqueId",
+        "SectorAPI.getStarSystem_lookup_identity"
+      ],
+      "ownership": "core_continued",
+      "action": "add",
+      "replacement_mode": "not_applicable",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ],
+      "notes": "Keep display name 'Epsilon Eridani' by default. Add supported optional unique ID in 2.0; first coexistence test retains requested coordinate (23117,10777)."
+    },
+    {
+      "old": "unsc_beta_gabriel_mirror_alpha",
+      "new": "unsc_cc_beta_gabriel_mirror_alpha",
+      "category": "stellar_mirror_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_beta_gabriel_mirror_beta",
+      "new": "unsc_cc_beta_gabriel_mirror_beta",
+      "category": "stellar_mirror_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_beta_gabriel_mirror_gamma",
+      "new": "unsc_cc_beta_gabriel_mirror_gamma",
+      "category": "stellar_mirror_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_core_world",
+      "new": "unsc_cc_core_world",
+      "category": "story_critical_reason",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "medium",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_epsilon_eridani_star",
+      "new": "unsc_cc_epsilon_eridani_star",
+      "category": "system_star_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_bomber_longsword_bomber",
+      "new": "unsc_cc_bomber_longsword_bomber",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/hulls/wing_data.csv",
+        "runtime:data/variants/unsc_bomber_longsword_bomber.variant"
+      ]
+    },
+    {
+      "old": "unsc_carrier_punic_assault",
+      "new": "unsc_cc_carrier_punic_assault",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/variants/unsc_carrier_punic_assault.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_carrier_punic_strike",
+      "new": "unsc_cc_carrier_punic_strike",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/variants/unsc_carrier_punic_strike.variant",
+        "runtime:data/world/factions/default_ship_roles.json"
+      ]
+    },
+    {
+      "old": "unsc_carrier_punic_support",
+      "new": "unsc_cc_carrier_punic_support",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/variants/unsc_carrier_punic_support.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_corvette_mako_assault",
+      "new": "unsc_cc_corvette_mako_assault",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/variants/unsc_corvette_mako_assault.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_corvette_mako_strike",
+      "new": "unsc_cc_corvette_mako_strike",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/config/title_screen_variants.csv",
+        "runtime:data/variants/unsc_corvette_mako_strike.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_corvette_mako_support",
+      "new": "unsc_cc_corvette_mako_support",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/variants/unsc_corvette_mako_support.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_cruiser_halcyon_assault",
+      "new": "unsc_cc_cruiser_halcyon_assault",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/config/title_screen_variants.csv",
+        "runtime:data/variants/unsc_cruiser_halcyon_assault.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_cruiser_marathon_fleet",
+      "new": "unsc_cc_cruiser_marathon_fleet",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/config/title_screen_variants.csv",
+        "runtime:data/variants/unsc_cruiser_marathon_fleet.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_destroyer_halberd_assault",
+      "new": "unsc_cc_destroyer_halberd_assault",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/title_screen_variants.csv",
+        "runtime:data/variants/unsc_destroyer_halberd_assault.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_destroyer_halberd_strike",
+      "new": "unsc_cc_destroyer_halberd_strike",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/variants/unsc_destroyer_halberd_strike.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_fighter_sabre_standard",
+      "new": "unsc_cc_fighter_sabre_standard",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/hulls/wing_data.csv",
+        "runtime:data/variants/unsc_fighter_sabre_standard.variant"
+      ]
+    },
+    {
+      "old": "unsc_frigate_charon_logistics",
+      "new": "unsc_cc_frigate_charon_logistics",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/variants/unsc_frigate_charon_logistics.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_frigate_paris_aa",
+      "new": "unsc_cc_frigate_paris_aa",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/variants/unsc_frigate_paris_aa.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_frigate_paris_escort",
+      "new": "unsc_cc_frigate_paris_escort",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/config/title_screen_variants.csv",
+        "runtime:data/variants/unsc_frigate_paris_escort.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_frigate_paris_logistics",
+      "new": "unsc_cc_frigate_paris_logistics",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/variants/unsc_frigate_paris_logistics.variant"
+      ]
+    },
+    {
+      "old": "unsc_frigate_paris_multirole",
+      "new": "unsc_cc_frigate_paris_multirole",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/variants/unsc_frigate_paris_multirole.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_frigate_paris_strike",
+      "new": "unsc_cc_frigate_paris_strike",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/variants/unsc_frigate_paris_strike.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_frigate_strident_backline",
+      "new": "unsc_cc_frigate_strident_backline",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/variants/unsc_frigate_strident_backline.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_frigate_strident_support",
+      "new": "unsc_cc_frigate_strident_support",
+      "category": "variant",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/campaign/sim_opponents.csv",
+        "runtime:data/config/exerelinFactionConfig/unsc.json",
+        "runtime:data/config/title_screen_variants.csv",
+        "runtime:data/variants/unsc_frigate_strident_support.variant",
+        "runtime:data/world/factions/default_ship_roles.json",
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_asgm_10_strike_missile",
+      "new": "unsc_cc_asgm_10_strike_missile",
+      "category": "weapon",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/hulls/unsc_bomber_longsword.ship",
+        "runtime:data/variants/unsc_bomber_longsword_bomber.variant",
+        "runtime:data/weapons/unsc_asgm_10_strike_missile.wpn",
+        "runtime:data/weapons/weapon_data.csv"
+      ]
+    },
+    {
+      "old": "unsc_goalkeeper_pd_chaingun",
+      "new": "unsc_cc_goalkeeper_pd_chaingun",
+      "category": "weapon",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_corvette_mako_support.variant",
+        "runtime:data/variants/unsc_cruiser_halcyon_assault.variant",
+        "runtime:data/variants/unsc_cruiser_marathon_fleet.variant",
+        "runtime:data/variants/unsc_destroyer_halberd_assault.variant",
+        "runtime:data/variants/unsc_destroyer_halberd_strike.variant",
+        "runtime:data/variants/unsc_frigate_paris_aa.variant",
+        "runtime:data/variants/unsc_frigate_paris_escort.variant",
+        "runtime:data/variants/unsc_frigate_paris_multirole.variant",
+        "runtime:data/variants/unsc_frigate_paris_strike.variant",
+        "runtime:data/variants/unsc_frigate_strident_backline.variant",
+        "runtime:data/weapons/unsc_goalkeeper_pd_chaingun.wpn",
+        "runtime:data/weapons/weapon_data.csv",
+        "runtime:data/world/factions/unsc.faction"
+      ]
+    },
+    {
+      "old": "unsc_harpoon_cell",
+      "new": "unsc_cc_harpoon_cell",
+      "category": "weapon",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/weapons/unsc_harpoon_cell.wpn~",
+        "runtime:data/weapons/weapon_data.csv",
+        "runtime:startup.txt"
+      ]
+    },
+    {
+      "old": "unsc_mark_ii_dual_mac",
+      "new": "unsc_cc_mark_ii_dual_mac",
+      "category": "weapon",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/hulls/unsc_destroyer_halberd.ship",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_destroyer_halberd_assault.variant",
+        "runtime:data/variants/unsc_destroyer_halberd_strike.variant",
+        "runtime:data/weapons/unsc_mark_ii_dual_mac.wpn",
+        "runtime:data/weapons/weapon_data.csv"
+      ]
+    },
+    {
+      "old": "unsc_mark_ii_light_mac",
+      "new": "unsc_cc_mark_ii_light_mac",
+      "category": "weapon",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/hulls/unsc_frigate_charon.ship",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_frigate_charon_logistics.variant",
+        "runtime:data/weapons/unsc_mark_ii_light_mac.wpn",
+        "runtime:data/weapons/weapon_data.csv"
+      ]
+    },
+    {
+      "old": "unsc_mark_ii_mac",
+      "new": "unsc_cc_mark_ii_mac",
+      "category": "weapon",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/hulls/unsc_carrier_punic.ship",
+        "runtime:data/hulls/unsc_frigate_paris.ship",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_carrier_punic_assault.variant",
+        "runtime:data/variants/unsc_carrier_punic_strike.variant",
+        "runtime:data/variants/unsc_carrier_punic_support.variant",
+        "runtime:data/variants/unsc_frigate_paris_aa.variant",
+        "runtime:data/variants/unsc_frigate_paris_escort.variant",
+        "runtime:data/variants/unsc_frigate_paris_logistics.variant",
+        "runtime:data/variants/unsc_frigate_paris_multirole.variant",
+        "runtime:data/variants/unsc_frigate_paris_strike.variant",
+        "runtime:data/weapons/unsc_mark_ii_mac.wpn",
+        "runtime:data/weapons/weapon_data.csv"
+      ]
+    },
+    {
+      "old": "unsc_mark_ii_rapid_fire_mac",
+      "new": "unsc_cc_mark_ii_rapid_fire_mac",
+      "category": "weapon",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/hulls/unsc_cruiser_halcyon.ship",
+        "runtime:data/hulls/unsc_cruiser_marathon.ship",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_cruiser_halcyon_assault.variant",
+        "runtime:data/variants/unsc_cruiser_marathon_fleet.variant",
+        "runtime:data/weapons/unsc_mark_ii_rapid_fire_mac.wpn",
+        "runtime:data/weapons/weapon_data.csv"
+      ]
+    },
+    {
+      "old": "unsc_mark_iv_mac",
+      "new": "unsc_cc_mark_iv_mac",
+      "category": "weapon",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/hulls/unsc_frigate_strident.ship",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_frigate_strident_backline.variant",
+        "runtime:data/variants/unsc_frigate_strident_support.variant",
+        "runtime:data/weapons/unsc_mark_iv_mac.wpn",
+        "runtime:data/weapons/weapon_data.csv"
+      ]
+    },
+    {
+      "old": "unsc_medusa_a2a_missile",
+      "new": "unsc_cc_medusa_a2a_missile",
+      "category": "weapon",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/hulls/unsc_fighter_sabre.ship",
+        "runtime:data/variants/unsc_fighter_sabre_standard.variant",
+        "runtime:data/weapons/proj/unsc_medusa_a2a_missile_projectile.proj",
+        "runtime:data/weapons/unsc_medusa_a2a_missile.wpn",
+        "runtime:data/weapons/weapon_data.csv"
+      ]
+    },
+    {
+      "old": "unsc_rampart_pd_coilguns",
+      "new": "unsc_cc_rampart_pd_coilguns",
+      "category": "weapon",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_carrier_punic_assault.variant",
+        "runtime:data/variants/unsc_carrier_punic_strike.variant",
+        "runtime:data/variants/unsc_carrier_punic_support.variant",
+        "runtime:data/variants/unsc_corvette_mako_strike.variant",
+        "runtime:data/variants/unsc_cruiser_halcyon_assault.variant",
+        "runtime:data/variants/unsc_cruiser_marathon_fleet.variant",
+        "runtime:data/variants/unsc_destroyer_halberd_assault.variant",
+        "runtime:data/variants/unsc_destroyer_halberd_strike.variant",
+        "runtime:data/variants/unsc_frigate_charon_logistics.variant",
+        "runtime:data/variants/unsc_frigate_paris_escort.variant",
+        "runtime:data/variants/unsc_frigate_paris_logistics.variant",
+        "runtime:data/variants/unsc_frigate_paris_multirole.variant",
+        "runtime:data/variants/unsc_frigate_paris_strike.variant",
+        "runtime:data/variants/unsc_frigate_strident_support.variant",
+        "runtime:data/weapons/unsc_rampart_pd_coilguns.wpn",
+        "runtime:data/weapons/weapon_data.csv",
+        "runtime:data/world/factions/unsc.faction",
+        "runtime:startup.txt"
+      ]
+    },
+    {
+      "old": "unsc_sabre_light_autocannon",
+      "new": "unsc_cc_sabre_light_autocannon",
+      "category": "weapon",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/hulls/unsc_bomber_longsword.ship",
+        "runtime:data/hulls/unsc_fighter_sabre.ship",
+        "runtime:data/variants/unsc_bomber_longsword_bomber.variant",
+        "runtime:data/variants/unsc_fighter_sabre_standard.variant",
+        "runtime:data/weapons/unsc_sabre_light_autocannon.wpn",
+        "runtime:data/weapons/weapon_data.csv"
+      ]
+    },
+    {
+      "old": "unsc_spartan_dew",
+      "new": "unsc_cc_spartan_dew",
+      "category": "weapon",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "runtime:data/config/sounds.json",
+        "runtime:data/strings/descriptions.csv",
+        "runtime:data/variants/unsc_corvette_mako_strike.variant",
+        "runtime:data/weapons/unsc_spartan_dew.wpn",
+        "runtime:data/weapons/weapon_data.csv",
+        "runtime:data/world/factions/unsc.faction"
+      ]
+    },
+    {
+      "old": "unsc_wreck_e1_charon",
+      "new": "unsc_cc_wreck_e1_charon",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_e1_mako",
+      "new": "unsc_cc_wreck_e1_mako",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_e1_paris",
+      "new": "unsc_cc_wreck_e1_paris",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_gap_charon",
+      "new": "unsc_cc_wreck_gap_charon",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_gap_paris",
+      "new": "unsc_cc_wreck_gap_paris",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_gap_strident",
+      "new": "unsc_cc_wreck_gap_strident",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_gate_halcyon",
+      "new": "unsc_cc_wreck_gate_halcyon",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_gate_punic",
+      "new": "unsc_cc_wreck_gate_punic",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_inner_charon",
+      "new": "unsc_cc_wreck_inner_charon",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_inner_halberd",
+      "new": "unsc_cc_wreck_inner_halberd",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_inner_mako",
+      "new": "unsc_cc_wreck_inner_mako",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_inner_paris",
+      "new": "unsc_cc_wreck_inner_paris",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_outer_charon",
+      "new": "unsc_cc_wreck_outer_charon",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_outer_halberd",
+      "new": "unsc_cc_wreck_outer_halberd",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_outer_strident",
+      "new": "unsc_cc_wreck_outer_strident",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_site17_marathon",
+      "new": "unsc_cc_wreck_site17_marathon",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_tantalus_halberd",
+      "new": "unsc_cc_wreck_tantalus_halberd",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_tantalus_mako",
+      "new": "unsc_cc_wreck_tantalus_mako",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_tantalus_paris",
+      "new": "unsc_cc_wreck_tantalus_paris",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    },
+    {
+      "old": "unsc_wreck_tantalus_punic",
+      "new": "unsc_cc_wreck_tantalus_punic",
+      "category": "wreck_entity",
+      "roles": [],
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_token_contextual",
+      "save_risk": "high",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ]
+    }
+  ],
+  "java_fqcn_mappings": [
+    {
+      "old": "data.scripts.UNSCModPlugin",
+      "new": "ktastic7.unsc.corecontinued.UNSCModPlugin",
+      "category": "java_fqcn",
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_fqcn_or_package_declaration",
+      "save_risk": "conditional_if_serialized",
+      "observed_1_3_1_paths": [
+        "runtime:mod_info.json",
+        "source:data/scripts/UNSCModPlugin.java"
+      ],
+      "notes": "Map exact serialized class name only if present in a save; do not blind-rewrite arbitrary prose."
+    },
+    {
+      "old": "data.scripts.campaign.UNSCColonyNamer",
+      "new": "ktastic7.unsc.corecontinued.campaign.UNSCColonyNamer",
+      "category": "java_fqcn",
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_fqcn_or_package_declaration",
+      "save_risk": "conditional_if_serialized",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/UNSCModPlugin.java",
+        "source:data/scripts/campaign/UNSCColonyNamer.java"
+      ],
+      "notes": "Map exact serialized class name only if present in a save; do not blind-rewrite arbitrary prose."
+    },
+    {
+      "old": "data.scripts.weapons.UNSC_GoalkeeperSpool",
+      "new": "ktastic7.unsc.corecontinued.weapons.UNSC_GoalkeeperSpool",
+      "category": "java_fqcn",
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_fqcn_or_package_declaration",
+      "save_risk": "conditional_if_serialized",
+      "observed_1_3_1_paths": [
+        "runtime:data/weapons/unsc_goalkeeper_pd_chaingun.wpn",
+        "source:data/scripts/weapons/UNSC_GoalkeeperSpool.java"
+      ],
+      "notes": "Map exact serialized class name only if present in a save; do not blind-rewrite arbitrary prose."
+    },
+    {
+      "old": "data.scripts.world.UNSCIndEvoIntegration",
+      "new": "ktastic7.unsc.corecontinued.world.UNSCIndEvoIntegration",
+      "category": "java_fqcn",
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_fqcn_or_package_declaration",
+      "save_risk": "conditional_if_serialized",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCIndEvoIntegration.java"
+      ],
+      "notes": "Map exact serialized class name only if present in a save; do not blind-rewrite arbitrary prose."
+    },
+    {
+      "old": "data.scripts.world.UNSCStar",
+      "new": "ktastic7.unsc.corecontinued.world.UNSCStar",
+      "category": "java_fqcn",
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_fqcn_or_package_declaration",
+      "save_risk": "conditional_if_serialized",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSCStar.java"
+      ],
+      "notes": "Map exact serialized class name only if present in a save; do not blind-rewrite arbitrary prose."
+    },
+    {
+      "old": "data.scripts.world.UNSCWorldGen",
+      "new": "ktastic7.unsc.corecontinued.world.UNSCWorldGen",
+      "category": "java_fqcn",
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_fqcn_or_package_declaration",
+      "save_risk": "conditional_if_serialized",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/UNSCModPlugin.java",
+        "source:data/scripts/world/UNSCWorldGen.java"
+      ],
+      "notes": "Map exact serialized class name only if present in a save; do not blind-rewrite arbitrary prose."
+    },
+    {
+      "old": "data.scripts.world.UNSC_AddMarketplace",
+      "new": "ktastic7.unsc.corecontinued.world.UNSC_AddMarketplace",
+      "category": "java_fqcn",
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_fqcn_or_package_declaration",
+      "save_risk": "conditional_if_serialized",
+      "observed_1_3_1_paths": [
+        "source:data/scripts/world/UNSC_AddMarketplace.java"
+      ],
+      "notes": "Map exact serialized class name only if present in a save; do not blind-rewrite arbitrary prose."
+    },
+    {
+      "old": "data.hullmods.CHM_UNSC",
+      "new": "ktastic7.unsc.corecontinued.hullmods.CHM_UNSC",
+      "category": "java_fqcn",
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_fqcn_or_package_declaration",
+      "save_risk": "conditional_if_serialized",
+      "observed_1_3_1_paths": [
+        "runtime:data/hullmods/CHM_UNSC.java",
+        "runtime:data/hullmods/hull_mods.csv",
+        "source:data/hullmods/CHM_UNSC.java"
+      ],
+      "notes": "Map exact serialized class name only if present in a save; do not blind-rewrite arbitrary prose."
+    },
+    {
+      "old": "data.hullmods.UNSC_hullconstruction",
+      "new": "ktastic7.unsc.corecontinued.hullmods.UNSC_hullconstruction",
+      "category": "java_fqcn",
+      "ownership": "core_continued",
+      "action": "rename",
+      "replacement_mode": "exact_fqcn_or_package_declaration",
+      "save_risk": "conditional_if_serialized",
+      "observed_1_3_1_paths": [
+        "runtime:data/hullmods/UNSC_hullconstruction.java",
+        "runtime:data/hullmods/hull_mods.csv",
+        "source:data/hullmods/UNSC_hullconstruction.java"
+      ],
+      "notes": "Map exact serialized class name only if present in a save; do not blind-rewrite arbitrary prose."
+    }
+  ],
+  "spec_filename_moves": [
+    {
+      "old": "data/hulls/unsc_frigate_charon.ship",
+      "new": "data/hulls/unsc_cc_frigate_charon.ship",
+      "category": "hull_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/hulls/unsc_frigate_paris.ship",
+      "new": "data/hulls/unsc_cc_frigate_paris.ship",
+      "category": "hull_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/hulls/unsc_destroyer_halberd.ship",
+      "new": "data/hulls/unsc_cc_destroyer_halberd.ship",
+      "category": "hull_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/hulls/unsc_carrier_punic.ship",
+      "new": "data/hulls/unsc_cc_carrier_punic.ship",
+      "category": "hull_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/hulls/unsc_cruiser_marathon.ship",
+      "new": "data/hulls/unsc_cc_cruiser_marathon.ship",
+      "category": "hull_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/hulls/unsc_cruiser_halcyon.ship",
+      "new": "data/hulls/unsc_cc_cruiser_halcyon.ship",
+      "category": "hull_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/hulls/unsc_frigate_strident.ship",
+      "new": "data/hulls/unsc_cc_frigate_strident.ship",
+      "category": "hull_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/hulls/unsc_corvette_mako.ship",
+      "new": "data/hulls/unsc_cc_corvette_mako.ship",
+      "category": "hull_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/hulls/unsc_bomber_longsword.ship",
+      "new": "data/hulls/unsc_cc_bomber_longsword.ship",
+      "category": "hull_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/hulls/unsc_fighter_sabre.ship",
+      "new": "data/hulls/unsc_cc_fighter_sabre.ship",
+      "category": "hull_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_bomber_longsword_bomber.variant",
+      "new": "data/variants/unsc_cc_bomber_longsword_bomber.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_carrier_punic_assault.variant",
+      "new": "data/variants/unsc_cc_carrier_punic_assault.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_carrier_punic_strike.variant",
+      "new": "data/variants/unsc_cc_carrier_punic_strike.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_carrier_punic_support.variant",
+      "new": "data/variants/unsc_cc_carrier_punic_support.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_corvette_mako_assault.variant",
+      "new": "data/variants/unsc_cc_corvette_mako_assault.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_corvette_mako_strike.variant",
+      "new": "data/variants/unsc_cc_corvette_mako_strike.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_corvette_mako_support.variant",
+      "new": "data/variants/unsc_cc_corvette_mako_support.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_cruiser_halcyon_assault.variant",
+      "new": "data/variants/unsc_cc_cruiser_halcyon_assault.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_cruiser_marathon_fleet.variant",
+      "new": "data/variants/unsc_cc_cruiser_marathon_fleet.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_destroyer_halberd_assault.variant",
+      "new": "data/variants/unsc_cc_destroyer_halberd_assault.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_destroyer_halberd_strike.variant",
+      "new": "data/variants/unsc_cc_destroyer_halberd_strike.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_fighter_sabre_standard.variant",
+      "new": "data/variants/unsc_cc_fighter_sabre_standard.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_frigate_charon_logistics.variant",
+      "new": "data/variants/unsc_cc_frigate_charon_logistics.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_frigate_paris_aa.variant",
+      "new": "data/variants/unsc_cc_frigate_paris_aa.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_frigate_paris_escort.variant",
+      "new": "data/variants/unsc_cc_frigate_paris_escort.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_frigate_paris_logistics.variant",
+      "new": "data/variants/unsc_cc_frigate_paris_logistics.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_frigate_paris_multirole.variant",
+      "new": "data/variants/unsc_cc_frigate_paris_multirole.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_frigate_paris_strike.variant",
+      "new": "data/variants/unsc_cc_frigate_paris_strike.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_frigate_strident_backline.variant",
+      "new": "data/variants/unsc_cc_frigate_strident_backline.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/variants/unsc_frigate_strident_support.variant",
+      "new": "data/variants/unsc_cc_frigate_strident_support.variant",
+      "category": "variant_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/unsc_mark_ii_mac.wpn",
+      "new": "data/weapons/unsc_cc_mark_ii_mac.wpn",
+      "category": "weapon_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/unsc_mark_ii_rapid_fire_mac.wpn",
+      "new": "data/weapons/unsc_cc_mark_ii_rapid_fire_mac.wpn",
+      "category": "weapon_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/unsc_mark_ii_dual_mac.wpn",
+      "new": "data/weapons/unsc_cc_mark_ii_dual_mac.wpn",
+      "category": "weapon_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/unsc_mark_ii_light_mac.wpn",
+      "new": "data/weapons/unsc_cc_mark_ii_light_mac.wpn",
+      "category": "weapon_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/unsc_mark_iv_mac.wpn",
+      "new": "data/weapons/unsc_cc_mark_iv_mac.wpn",
+      "category": "weapon_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/unsc_rampart_pd_coilguns.wpn",
+      "new": "data/weapons/unsc_cc_rampart_pd_coilguns.wpn",
+      "category": "weapon_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/unsc_goalkeeper_pd_chaingun.wpn",
+      "new": "data/weapons/unsc_cc_goalkeeper_pd_chaingun.wpn",
+      "category": "weapon_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/unsc_spartan_dew.wpn",
+      "new": "data/weapons/unsc_cc_spartan_dew.wpn",
+      "category": "weapon_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/unsc_sabre_light_autocannon.wpn",
+      "new": "data/weapons/unsc_cc_sabre_light_autocannon.wpn",
+      "category": "weapon_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/unsc_asgm_10_strike_missile.wpn",
+      "new": "data/weapons/unsc_cc_asgm_10_strike_missile.wpn",
+      "category": "weapon_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/unsc_medusa_a2a_missile.wpn",
+      "new": "data/weapons/unsc_cc_medusa_a2a_missile.wpn",
+      "category": "weapon_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/unsc_harpoon_cell.wpn~",
+      "new": "data/weapons/unsc_cc_harpoon_cell.wpn~",
+      "category": "weapon_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/proj/unsc_harpoon_mrm.proj",
+      "new": "data/weapons/proj/unsc_cc_harpoon_mrm.proj",
+      "category": "projectile_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/proj/unsc_mac_shell.proj",
+      "new": "data/weapons/proj/unsc_cc_mac_shell.proj",
+      "category": "projectile_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/proj/unsc_medusa_a2a_missile_projectile.proj",
+      "new": "data/weapons/proj/unsc_cc_medusa_a2a_missile_projectile.proj",
+      "category": "projectile_spec",
+      "action": "move"
+    },
+    {
+      "old": "data/weapons/proj/unsc_pd_ballistic_shot.proj",
+      "new": "data/weapons/proj/unsc_cc_pd_ballistic_shot.proj",
+      "category": "projectile_spec",
+      "action": "move"
+    }
+  ],
+  "resource_path_moves": [
+    {
+      "old": "graphics/factions/unsc.png",
+      "new": "graphics/unsc_core_continued/factions/unsc.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/factions/unsc_crest.png",
+      "new": "graphics/unsc_core_continued/factions/unsc_crest.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/hullmods/CHM_UNSC.png",
+      "new": "graphics/unsc_core_continued/hullmods/CHM_UNSC.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/hullmods/UNSC_hullconstruction.png",
+      "new": "graphics/unsc_core_continued/hullmods/UNSC_hullconstruction.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/icons/cargo/unsc_package_bp.png",
+      "new": "graphics/unsc_core_continued/icons/cargo/unsc_package_bp.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/illustrations/unsc_casimir_station.jpg",
+      "new": "graphics/unsc_core_continued/illustrations/unsc_casimir_station.jpg",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/illustrations/unsc_reach.jpg",
+      "new": "graphics/unsc_core_continued/illustrations/unsc_reach.jpg",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/illustrations/unsc_tribute.jpg",
+      "new": "graphics/unsc_core_continued/illustrations/unsc_tribute.jpg",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/missiles/mac_shell.png",
+      "new": "graphics/unsc_core_continued/missiles/mac_shell.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/missiles/missile_harpoon.png",
+      "new": "graphics/unsc_core_continued/missiles/missile_harpoon.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/missiles/shell_small_yellow.png",
+      "new": "graphics/unsc_core_continued/missiles/shell_small_yellow.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/ships/UNSC_Bomber_Longsword.png",
+      "new": "graphics/unsc_core_continued/ships/UNSC_Bomber_Longsword.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/ships/UNSC_Carrier_Punic.png",
+      "new": "graphics/unsc_core_continued/ships/UNSC_Carrier_Punic.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/ships/UNSC_Corvette_Mako.png",
+      "new": "graphics/unsc_core_continued/ships/UNSC_Corvette_Mako.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/ships/UNSC_Cruiser_Halcyon.png",
+      "new": "graphics/unsc_core_continued/ships/UNSC_Cruiser_Halcyon.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/ships/UNSC_Cruiser_Marathon.png",
+      "new": "graphics/unsc_core_continued/ships/UNSC_Cruiser_Marathon.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/ships/UNSC_Destroyer_Halberd.png",
+      "new": "graphics/unsc_core_continued/ships/UNSC_Destroyer_Halberd.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/ships/UNSC_Fighter_Sabre.png",
+      "new": "graphics/unsc_core_continued/ships/UNSC_Fighter_Sabre.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/ships/UNSC_Frigate_Charon.png",
+      "new": "graphics/unsc_core_continued/ships/UNSC_Frigate_Charon.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/ships/UNSC_Frigate_Paris.png",
+      "new": "graphics/unsc_core_continued/ships/UNSC_Frigate_Paris.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/ships/UNSC_Frigate_Strident.png",
+      "new": "graphics/unsc_core_continued/ships/UNSC_Frigate_Strident.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/weapons/UNSC_Frigate_duallightmac.png",
+      "new": "graphics/unsc_core_continued/weapons/UNSC_Frigate_duallightmac.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/weapons/UNSC_Frigate_lightmac.png",
+      "new": "graphics/unsc_core_continued/weapons/UNSC_Frigate_lightmac.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/weapons/launcher_m4_2x_hardpoint_base.png",
+      "new": "graphics/unsc_core_continued/weapons/launcher_m4_2x_hardpoint_base.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/weapons/launcher_m4_2x_turret_base.png",
+      "new": "graphics/unsc_core_continued/weapons/launcher_m4_2x_turret_base.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/weapons/unsc_spartan_laser_hardpoint_base.png",
+      "new": "graphics/unsc_core_continued/weapons/unsc_spartan_laser_hardpoint_base.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/weapons/unsc_spartan_laser_turret_base.png",
+      "new": "graphics/unsc_core_continued/weapons/unsc_spartan_laser_turret_base.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/weapons/unscpd_goal_hardpoint_barrel.png",
+      "new": "graphics/unsc_core_continued/weapons/unscpd_goal_hardpoint_barrel.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/weapons/unscpd_goal_hardpoint_base.png",
+      "new": "graphics/unsc_core_continued/weapons/unscpd_goal_hardpoint_base.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/weapons/unscpd_goal_turret_barrel.png",
+      "new": "graphics/unsc_core_continued/weapons/unscpd_goal_turret_barrel.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/weapons/unscpd_hardpoint_barrel.png",
+      "new": "graphics/unsc_core_continued/weapons/unscpd_hardpoint_barrel.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/weapons/unscpd_hardpoint_base.png",
+      "new": "graphics/unsc_core_continued/weapons/unscpd_hardpoint_base.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/weapons/unscpd_turret_barrel_watermelon.png",
+      "new": "graphics/unsc_core_continued/weapons/unscpd_turret_barrel_watermelon.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "graphics/weapons/unscpd_turret_base_watermelon.png",
+      "new": "graphics/unsc_core_continued/weapons/unscpd_turret_base_watermelon.png",
+      "category": "graphics_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/music/ODST_intothebreach.ogg",
+      "new": "sounds/unsc_core_continued/music/ODST_intothebreach.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/music/Reach_ontheprowl.ogg",
+      "new": "sounds/unsc_core_continued/music/Reach_ontheprowl.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/music/Reach_powderkeg.ogg",
+      "new": "sounds/unsc_core_continued/music/Reach_powderkeg.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/music/Reach_swordbasecontrol.ogg",
+      "new": "sounds/unsc_core_continued/music/Reach_swordbasecontrol.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/TRVulcan1.ogg",
+      "new": "sounds/unsc_core_continued/weapons/TRVulcan1.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/TRVulcan2.ogg",
+      "new": "sounds/unsc_core_continued/weapons/TRVulcan2.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/TRVulcan3.ogg",
+      "new": "sounds/unsc_core_continued/weapons/TRVulcan3.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/TRVulcan4.ogg",
+      "new": "sounds/unsc_core_continued/weapons/TRVulcan4.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/TRVulcan5.ogg",
+      "new": "sounds/unsc_core_continued/weapons/TRVulcan5.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/chargegauss.ogg",
+      "new": "sounds/unsc_core_continued/weapons/chargegauss.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/falcon_turret1.ogg",
+      "new": "sounds/unsc_core_continued/weapons/falcon_turret1.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/falcon_turret2.ogg",
+      "new": "sounds/unsc_core_continued/weapons/falcon_turret2.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/falcon_turret3.ogg",
+      "new": "sounds/unsc_core_continued/weapons/falcon_turret3.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/grifle_fire_01.ogg",
+      "new": "sounds/unsc_core_continued/weapons/grifle_fire_01.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/grifle_fire_02.ogg",
+      "new": "sounds/unsc_core_continued/weapons/grifle_fire_02.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/grifle_fire_03.ogg",
+      "new": "sounds/unsc_core_continued/weapons/grifle_fire_03.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/grifle_fire_04.ogg",
+      "new": "sounds/unsc_core_continued/weapons/grifle_fire_04.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/sabre_turretss1.ogg",
+      "new": "sounds/unsc_core_continued/weapons/sabre_turretss1.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/sabre_turretss2.ogg",
+      "new": "sounds/unsc_core_continued/weapons/sabre_turretss2.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/sabre_turretss3.ogg",
+      "new": "sounds/unsc_core_continued/weapons/sabre_turretss3.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/spartanlaser_down1.ogg",
+      "new": "sounds/unsc_core_continued/weapons/spartanlaser_down1.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    },
+    {
+      "old": "sounds/UNSC/weapons/spartanlaser_fire1only.ogg",
+      "new": "sounds/unsc_core_continued/weapons/spartanlaser_fire1only.ogg",
+      "category": "sound_resource",
+      "action": "move",
+      "save_risk": "none"
+    }
+  ],
+  "other_path_moves": [
+    {
+      "old": "data/world/factions/unsc.faction",
+      "new": "data/world/factions/unsc_cc.faction",
+      "category": "faction_file",
+      "action": "move"
+    },
+    {
+      "old": "data/config/exerelinFactionConfig/unsc.json",
+      "new": "data/config/exerelinFactionConfig/unsc_cc.json",
+      "category": "Nex_faction_config",
+      "action": "move"
+    },
+    {
+      "old": "data/config/unsc_colony_names.json",
+      "new": "data/config/unsc_cc_colony_names.json",
+      "category": "owned_config",
+      "action": "move"
+    },
+    {
+      "old": "jars/UNSC.jar",
+      "new": "jars/UNSC-Core-Continued.jar",
+      "category": "jar_identity",
+      "action": "move"
+    },
+    {
+      "old": "unsc_continued.version",
+      "new": null,
+      "category": "legacy_version_declaration",
+      "action": "remove_from_Core_runtime"
+    },
+    {
+      "old": "src/version-checker/unsc_continued.version",
+      "new": "src/version-checker/unsc_core_continued.version",
+      "category": "source_version_declaration",
+      "action": "replace"
+    },
+    {
+      "old": "src/version-checker/version_files.csv",
+      "new": "src/version-checker/version_files.csv",
+      "category": "source_version_registration",
+      "action": "update_contents"
+    },
+    {
+      "old": "data/hullmods/CHM_UNSC.java",
+      "new": null,
+      "category": "runtime_loose_java_duplicate",
+      "action": "remove_after_JAR_package_migration",
+      "notes": "JAR becomes authoritative; removal must be confirmed in exact 2.0 runtime smoke test."
+    },
+    {
+      "old": "data/hullmods/UNSC_hullconstruction.java",
+      "new": null,
+      "category": "runtime_loose_java_duplicate",
+      "action": "remove_after_JAR_package_migration",
+      "notes": "JAR becomes authoritative; removal must be confirmed in exact 2.0 runtime smoke test."
+    },
+    {
+      "old": "src/data/scripts/UNSCModPlugin.java",
+      "new": "src/ktastic7/unsc/corecontinued/UNSCModPlugin.java",
+      "category": "development_java_source_path",
+      "action": "move"
+    },
+    {
+      "old": "src/data/scripts/campaign/UNSCColonyNamer.java",
+      "new": "src/ktastic7/unsc/corecontinued/campaign/UNSCColonyNamer.java",
+      "category": "development_java_source_path",
+      "action": "move"
+    },
+    {
+      "old": "src/data/scripts/weapons/UNSC_GoalkeeperSpool.java",
+      "new": "src/ktastic7/unsc/corecontinued/weapons/UNSC_GoalkeeperSpool.java",
+      "category": "development_java_source_path",
+      "action": "move"
+    },
+    {
+      "old": "src/data/scripts/world/UNSCIndEvoIntegration.java",
+      "new": "src/ktastic7/unsc/corecontinued/world/UNSCIndEvoIntegration.java",
+      "category": "development_java_source_path",
+      "action": "move"
+    },
+    {
+      "old": "src/data/scripts/world/UNSCStar.java",
+      "new": "src/ktastic7/unsc/corecontinued/world/UNSCStar.java",
+      "category": "development_java_source_path",
+      "action": "move"
+    },
+    {
+      "old": "src/data/scripts/world/UNSCWorldGen.java",
+      "new": "src/ktastic7/unsc/corecontinued/world/UNSCWorldGen.java",
+      "category": "development_java_source_path",
+      "action": "move"
+    },
+    {
+      "old": "src/data/scripts/world/UNSC_AddMarketplace.java",
+      "new": "src/ktastic7/unsc/corecontinued/world/UNSC_AddMarketplace.java",
+      "category": "development_java_source_path",
+      "action": "move"
+    },
+    {
+      "old": "src/data/hullmods/CHM_UNSC.java",
+      "new": "src/ktastic7/unsc/corecontinued/hullmods/CHM_UNSC.java",
+      "category": "development_java_source_path",
+      "action": "move"
+    },
+    {
+      "old": "src/data/hullmods/UNSC_hullconstruction.java",
+      "new": "src/ktastic7/unsc/corecontinued/hullmods/UNSC_hullconstruction.java",
+      "category": "development_java_source_path",
+      "action": "move"
+    }
+  ],
+  "derived_serialized_rules": [
+    {
+      "id": "hull_Hull_suffix",
+      "source_family": "hull",
+      "old_pattern": "<old_hull>_Hull",
+      "new_pattern": "<new_hull>_Hull",
+      "scope": "serialized_save_only",
+      "replacement_mode": "derive_from_exact_hull_mapping",
+      "evidence": "Validated in ST-17 Duke Wellington / Spencer Briggs migration."
+    },
+    {
+      "id": "hull_default_D_suffix",
+      "source_family": "hull",
+      "old_pattern": "<old_hull>_default_D",
+      "new_pattern": "<new_hull>_default_D",
+      "scope": "serialized_save_only",
+      "replacement_mode": "derive_from_exact_hull_mapping",
+      "evidence": "Validated in ST-17 save migration."
+    },
+    {
+      "id": "market_reference_prefix",
+      "source_family": "market",
+      "old_pattern": "mRef_<old_market>",
+      "new_pattern": "mRef_<new_market>",
+      "scope": "serialized_save_only",
+      "replacement_mode": "derive_from_exact_market_mapping",
+      "evidence": "Validated in ST-17 save migration."
+    },
+    {
+      "id": "entity_reference_prefix",
+      "source_family": "campaign_entity_or_body",
+      "old_pattern": "enRef_<old_entity_or_body>",
+      "new_pattern": "enRef_<new_entity_or_body>",
+      "scope": "serialized_save_only",
+      "replacement_mode": "derive_from_exact_base_mapping",
+      "evidence": "Validated in ST-17 save migration."
+    },
+    {
+      "id": "condition_market_id",
+      "source_family": "uncolonized_campaign_body",
+      "old_pattern": "market_<old_body>",
+      "new_pattern": "market_<new_body>",
+      "scope": "serialized_save_only",
+      "replacement_mode": "only_for_bodies_initialized_by_Misc.initConditionMarket",
+      "old_bases": [
+        "unsc_epsilon_eridani_i",
+        "unsc_turul",
+        "unsc_csodaszarvas",
+        "unsc_emese",
+        "unsc_tantalus",
+        "unsc_site_17"
+      ],
+      "evidence": "Validated family in ST-17 save migration; current 1.3.1 worldgen uses Misc.initConditionMarket for these six bodies."
+    },
+    {
+      "id": "generated_history_response_keys",
+      "source_family": "campaign_body_or_entity",
+      "old_pattern": "generated key containing an exact mapped authored world ID",
+      "new_pattern": "same generated-key template with mapped authored world ID",
+      "scope": "serialized_save_only",
+      "replacement_mode": "contextual_template_validation_required",
+      "evidence": "Generated military-response/history keys were observed in ST-17 save migration."
+    },
+    {
+      "id": "serialized_java_fqcn",
+      "source_family": "java_fqcn",
+      "old_pattern": "exact old Java FQCN",
+      "new_pattern": "exact mapped Core Java FQCN",
+      "scope": "serialized_save_only",
+      "replacement_mode": "exact_match_only_if_present",
+      "evidence": "Phase-2 preventive rule; actual 1.3.1 save occurrence must be confirmed before transformer mutation."
+    },
+    {
+      "id": "save_mod_descriptor",
+      "source_family": "loader_mod_id",
+      "old_pattern": "UNSC in mod-list/descriptor technical identity context",
+      "new_pattern": "unsc_core_continued",
+      "scope": "save_descriptor_or_mod_metadata_only",
+      "replacement_mode": "contextual_only",
+      "evidence": "Loader ID changes in 2.0; exact save descriptor surfaces must be determined in Phase 3 before implementation."
+    },
+    {
+      "id": "java_inner_class_suffix",
+      "source_family": "java_fqcn",
+      "old_pattern": "<old_outer_fqcn>$<inner_suffix>",
+      "new_pattern": "<new_outer_fqcn>$<same_inner_suffix>",
+      "scope": "compiled_JAR_and_serialized_save_if_present",
+      "replacement_mode": "derive_from_exact_outer_FQCN_mapping",
+      "evidence": "1.3.1 JAR contains UNSCColonyNamer and UNSCIndEvoIntegration inner classes; recompilation under the new package must move them with their outer class."
+    },
+    {
+      "id": "nex_market_military_suffix",
+      "source_family": "market",
+      "old_pattern": "<old_market>_military",
+      "new_pattern": "<new_market>_military",
+      "scope": "serialized_save_only",
+      "replacement_mode": "derive_from_exact_market_mapping",
+      "evidence": "James Holden exact 1.3.1 fixture; Nex route/source identifiers."
+    },
+    {
+      "id": "ambassador_market_prefix",
+      "source_family": "market",
+      "old_pattern": "amb_<old_market>",
+      "new_pattern": "amb_<new_market>",
+      "scope": "serialized_save_only",
+      "replacement_mode": "derive_from_exact_market_mapping",
+      "evidence": "James Holden exact 1.3.1 fixture; comm-directory ambassador tags."
+    },
+    {
+      "id": "sim_changedhands_authored_entity",
+      "source_family": "campaign_entity_or_body",
+      "old_pattern": "sim_changedhands_<old_entity>",
+      "new_pattern": "sim_changedhands_<new_entity>",
+      "scope": "serialized_save_only",
+      "replacement_mode": "derive_from_exact_base_mapping",
+      "evidence": "James Holden exact 1.3.1 fixture; WarSim/history timeout key."
+    },
+    {
+      "id": "prefixed_weapon_key",
+      "source_family": "weapon",
+      "old_pattern": "wpn_<old_weapon>",
+      "new_pattern": "wpn_<new_weapon>",
+      "scope": "serialized_save_only",
+      "replacement_mode": "derive_from_exact_weapon_mapping",
+      "evidence": "James Holden exact 1.3.1 fixture; DGRow custom weapon key."
+    },
+    {
+      "id": "prefixed_fighter_key",
+      "source_family": "fighter_wing",
+      "old_pattern": "ftr_<old_wing>",
+      "new_pattern": "ftr_<new_wing>",
+      "scope": "serialized_save_only",
+      "replacement_mode": "derive_from_exact_fighter_wing_mapping",
+      "evidence": "James Holden exact 1.3.1 fixture; DGRow custom fighter key."
+    },
+    {
+      "id": "story_critical_reason_memory_key",
+      "source_family": "story_critical_reason",
+      "old_pattern": "$story_critical_<old_reason>",
+      "new_pattern": "$story_critical_<new_reason>",
+      "scope": "serialized_save_only",
+      "replacement_mode": "derive_from_exact_story_critical_reason_mapping",
+      "evidence": "James Holden exact 1.3.1 fixture; market memory and memory requirement keys."
+    },
+    {
+      "id": "faction_relation_pair_key",
+      "source_family": "faction_root",
+      "old_pattern": "unsc_<otherFaction> or <otherFaction>_unsc in FMRelation map-key context",
+      "new_pattern": "unsc_cc_<otherFaction> or <otherFaction>_unsc_cc",
+      "scope": "serialized_save_only",
+      "replacement_mode": "contextual_FMRelation_map_key_only",
+      "evidence": "James Holden exact 1.3.1 fixture; 65 relation-map keys remained after B1c while FMRelation fields had already migrated to unsc_cc."
+    },
+    {
+      "id": "cfai_make_nonhostile_faction_key",
+      "source_family": "faction_root",
+      "old_pattern": "$cfai_makeNonHostile_unsc",
+      "new_pattern": "$cfai_makeNonHostile_unsc_cc",
+      "scope": "serialized_save_only",
+      "replacement_mode": "exact_generated_key",
+      "evidence": "James Holden exact 1.3.1 fixture; two fleet memory keys."
+    },
+    {
+      "id": "warsim_faction_timeout_key",
+      "source_family": "faction_root",
+      "old_pattern": "unsc_<dynamicSuffix> inside WarSimScript/IDt string timeout keys",
+      "new_pattern": "unsc_cc_<sameDynamicSuffix>",
+      "scope": "serialized_save_only",
+      "replacement_mode": "contextual_IDt_string_key_prefix",
+      "evidence": "James Holden exact 1.3.1 fixture; unsc_3f1 and unsc_9db0."
+    }
+  ],
+  "presentation_rules": [
+    {
+      "surface": "Core faction display name",
+      "value": "UNSC Core",
+      "status": "LOCKED_BY_USER_2026-10-07",
+      "technical_id": "unsc_cc",
+      "notes": "Player-facing short/long faction display fields use UNSC Core; shipNamePrefix remains UNSC."
+    },
+    {
+      "surface": "Core Epsilon Eridani display name",
+      "default": "Epsilon Eridani",
+      "when_UNSC_Reborn_enabled": "Epsilon Eridani (Core)",
+      "status": "behavior_locked_suffix_wording_polishable",
+      "notes": "Display-only; unique system technical identity stays unsc_cc_epsilon_eridani."
+    },
+    {
+      "surface": "Epsilon Eridani requested coordinates",
+      "value": [
+        23117,
+        10777
+      ],
+      "status": "retain_for_first_pairwise_overlap_experiment",
+      "notes": "Do not manually move before namespace/class conflicts are removed and engine behavior is observed."
+    }
+  ],
+  "intentional_unchanged": [
+    {
+      "value": "UNSC",
+      "context": "player-facing acronym, shipNamePrefix, manufacturer/display prose",
+      "reason": "presentation/lore text; loader ID is mapped separately and contextually"
+    },
+    {
+      "value": "Epsilon Eridani",
+      "context": "system display name",
+      "reason": "retained canonical display identity by approved ST-18 decision"
+    },
+    {
+      "value": "Reach / Tribute / Circumstance / Beta Gabriel / Tantalus / Site 17 and other visible body names",
+      "context": "display names",
+      "reason": "technical IDs change; canonical visible names remain"
+    },
+    {
+      "value": "$nex_npcColony",
+      "context": "Nexerelin memory key",
+      "reason": "third-party owned"
+    },
+    {
+      "value": "$nex_corvusMode",
+      "context": "Nexerelin memory key",
+      "reason": "third-party owned"
+    },
+    {
+      "value": "IndEvo_Artillery_railgun",
+      "context": "Industrial Evolution industry ID",
+      "reason": "third-party owned"
+    },
+    {
+      "value": "IndEvo_arsenalStation",
+      "context": "Industrial Evolution salvage entity type",
+      "reason": "third-party owned"
+    },
+    {
+      "value": "Vanilla registry IDs and referenced Vanilla graphics/portraits not shipped by Core",
+      "context": "third-party/Vanilla ownership",
+      "reason": "must remain exact under owner namespace"
+    },
+    {
+      "value": "LazyLib hard dependency",
+      "context": "mod_info dependency",
+      "reason": "ST-15 remains backlog and must not be bundled into ST-18 namespace migration"
+    }
+  ],
+  "validation": {
+    "target_namespace_partner_scan": {
+      "UNSC_Reborn_0.6.5": [],
+      "Halo_HomeSystems_0.7.6": []
+    },
+    "target_namespace_partner_scan_pass": true,
+    "production_token_coverage_uncovered": [],
+    "production_token_coverage_pass": true,
+    "notes": [
+      "Coverage audit is registry-aware; display/manufacturer/resource basenames and Java simple class names are not treated as data IDs.",
+      "Re-scan then-current partner releases immediately before the 2.0 production build."
+    ],
+    "baseline_jar_class_entries": [
+      "data/scripts/UNSCModPlugin.class",
+      "data/scripts/campaign/UNSCColonyNamer$1.class",
+      "data/scripts/campaign/UNSCColonyNamer$2.class",
+      "data/scripts/campaign/UNSCColonyNamer$NewTrackCandidate.class",
+      "data/scripts/campaign/UNSCColonyNamer$SuccessCandidate.class",
+      "data/scripts/campaign/UNSCColonyNamer.class",
+      "data/scripts/weapons/UNSC_GoalkeeperSpool.class",
+      "data/scripts/world/UNSCIndEvoIntegration$1.class",
+      "data/scripts/world/UNSCIndEvoIntegration.class",
+      "data/scripts/world/UNSCStar.class",
+      "data/scripts/world/UNSCWorldGen.class",
+      "data/scripts/world/UNSC_AddMarketplace.class"
+    ],
+    "expected_core_jar_class_entry_count": 14,
+    "resource_overlap_coverage": {
+      "Continued_vs_Reborn_shared_graphics_sounds_paths": 31,
+      "Continued_vs_Reborn_planned_moved_paths": 31,
+      "Continued_vs_HomeSystems_shared_graphics_sounds_paths": 42,
+      "Continued_vs_HomeSystems_planned_moved_paths": 42,
+      "pass": true
+    },
+    "core_jar_class_count_note": "Phase-4 implementation compiles the two hullmod plugins into the authoritative JAR because the loose runtime Java copies are deliberately removed. The Phase-2 value 12 was inconsistent with that path disposition; 14 is the mechanically required class-entry count."
+  },
+  "inventory_summary": {
+    "identifier_mappings_total": 131,
+    "rename_entries": 127,
+    "legacy_transitional_key_removals": 3,
+    "additive_system_unique_id_entries": 1,
+    "java_fqcn_mappings": 9,
+    "baseline_compiled_class_entries": 12,
+    "id_bearing_spec_filename_moves": 46,
+    "graphics_resource_moves": 34,
+    "sound_resource_moves": 22,
+    "resource_moves_total": 56,
+    "other_path_moves": 18,
+    "owned_custom_industry_ids": 0,
+    "owned_custom_ability_ids": 0,
+    "owned_custom_market_condition_ids": 0,
+    "owned_custom_ship_system_ids": 0,
+    "notes": [
+      "The mod consumes Vanilla and third-party industries, conditions, ship systems, entity types, and memory keys; those remain under their owners' IDs.",
+      "Counts are based on exact sealed 1.3.1 runtime/source artifacts, not memory or generic Starsector conventions."
+    ],
+    "derived_serialized_rules": 18
+  },
+  "integration_hooks": [
+    {
+      "integration": "Nexerelin",
+      "owned_changes": [
+        "mod_factions.csv faction unsc -> unsc_cc",
+        "exerelinFactionConfig/unsc.json -> unsc_cc.json",
+        "all referenced Core variants -> unsc_cc_* variants",
+        "start special item unsc_package_bp -> unsc_cc_package_bp",
+        "UNSCColonyNamer faction filter unsc -> unsc_cc"
+      ],
+      "third_party_unchanged": [
+        "$nex_npcColony",
+        "$nex_corvusMode",
+        "Nexerelin API/classes"
+      ],
+      "notes": "No reflection; keep public API-only architecture."
+    },
+    {
+      "integration": "Industrial Evolution",
+      "owned_changes": [
+        "embassy whitelist faction unsc -> unsc_cc",
+        "printing whitelist eight principal hull IDs -> unsc_cc_*",
+        "reverse-engineering whitelist eight principal hull IDs -> unsc_cc_*",
+        "worldgen faction lookup unsc -> unsc_cc",
+        "unsc_indevo_arsenal_station -> unsc_cc_indevo_arsenal_station"
+      ],
+      "third_party_unchanged": [
+        "IndEvo",
+        "IndEvo_Artillery_railgun",
+        "IndEvo_arsenalStation",
+        "IndEvo Java API/classes"
+      ],
+      "notes": "Optional dependency gate remains; do not hard-link IndEvo outside gated integration class."
+    },
+    {
+      "integration": "Commissioned Crews",
+      "owned_changes": [
+        "faction unsc -> unsc_cc",
+        "hullmod unsc_ai_integration -> unsc_cc_ai_integration"
+      ],
+      "third_party_unchanged": [
+        "Commissioned Crews data contract"
+      ]
+    },
+    {
+      "integration": "Starpocalypse",
+      "owned_changes": [
+        "faction unsc -> unsc_cc"
+      ],
+      "third_party_unchanged": [
+        "orbitalstation_mid"
+      ]
+    },
+    {
+      "integration": "Treasure Hunt",
+      "owned_changes": [
+        "th_one_time_items entry unsc_package_bp -> unsc_cc_package_bp"
+      ],
+      "third_party_unchanged": [
+        "th_one_time_items settings key"
+      ],
+      "notes": "Treasure Hunt remains optional data integration."
+    },
+    {
+      "integration": "Version Checker / LunaLib protocol",
+      "owned_changes": [
+        "runtime version registration unsc_continued.version -> unsc_core_continued.version",
+        "legacy version declaration removed from Core 2.0 runtime/source",
+        "new master remains in ktastic7/UNSC-Core-Continued"
+      ],
+      "third_party_unchanged": [
+        "Version Checker/LunaLib remains optional; no hard runtime Java linkage"
+      ]
+    },
+    {
+      "integration": "LazyLib",
+      "owned_changes": [],
+      "third_party_unchanged": [
+        "lw_lazylib dependency ID"
+      ],
+      "notes": "ST-15 dependency reconsideration stays deferred; do not bundle it into ST-18."
+    }
+  ],
+  "phase3_fixture_evidence": {
+    "fixture": "save_JamesHolden_2500712457977966926",
+    "source_campaign_sha256": "19104827e8d0a21bdd306c937d8859f81f1cfaa4c82d97b664546ff55711655c",
+    "source_descriptor_sha256": "1e46ab49ac69d6c65030930e9d1b32f78873cd2160fec7e9723ba00fa6cb16bf",
+    "b1c_apply_campaign_sha256": "a35a8fe9ac1066490cf248a8b8b720559d69c59b52613473e4815ddb1fdafd51",
+    "b1c_apply_descriptor_sha256": "615034b63a2f22c753c52efeca4b0f73ec1e7a32c82d98abb7a78332b5ee8cc6",
+    "b1c_apply_reported_transformations": 1476,
+    "b1c_independent_audit_result": "B1c output exactly matched its intended transformation algorithm, but independent substring/context audit found 81 additional generated technical identities requiring bounded migration rules.",
+    "additional_generated_identity_occurrences": 81,
+    "b1e_apply_campaign_sha256": "11f706d92953c8f335c20e75637e159bbbfa15b4c1a08d7b015b604d39f6c8cc",
+    "b1e_apply_descriptor_sha256": "615034b63a2f22c753c52efeca4b0f73ec1e7a32c82d98abb7a78332b5ee8cc6",
+    "b1e_apply_reported_transformations": 1557,
+    "b1e_unresolved_technical_findings": 0,
+    "b1e_result": "PASS",
+    "phase3_engine_proof_status": "COMPLETE_STATIC_AND_APPLY_PROOF_RUNTIME_LOAD_SEAL_DEFERRED_TO_PHASE_6"
+  },
+  "phase3_sealed_map_sha256": "bd47a53704957afe1f5255fe7707ee9b243805fdf6f79c5078afa3ca6b868993",
+  "phase4_implementation_evidence": {
+    "baseline_core_commit": "482e77f8f5db9d0fb2b6293a939d830d7b4e5d78",
+    "display_faction_name": "UNSC Core",
+    "java_package_root": "ktastic7.unsc.corecontinued",
+    "jar_authoritative_hullmods": true,
+    "expected_class_entries": 14,
+    "legacy_requested_coordinate_retained_for_phase4a": [
+      23117,
+      10777
+    ],
+    "system_unique_id": "unsc_cc_epsilon_eridani",
+    "reborn_display_name_when_enabled": "Epsilon Eridani (Core)",
+    "phase3_b1e_map_sha256": "bd47a53704957afe1f5255fe7707ee9b243805fdf6f79c5078afa3ca6b868993",
+    "static_candidate_status": "STATIC_BUILD_VALIDATION_PASS_RUNTIME_TEST_PENDING",
+    "core_jar_sha256": "60ec5303134b950c24492ec370d9f392ad400cf20b8b8cba5c4985c9818f3424",
+    "compiled_class_entries": 14,
+    "compiled_class_major_version": 52,
+    "fresh_recompile_class_bytes_match": true,
+    "moved_resource_bytes_preserved": 56,
+    "graphics_resource_moves": 34,
+    "sound_resource_moves": 22,
+    "partner_target_namespace_hits_reborn_0_6_5": 0,
+    "partner_target_namespace_hits_hhs_0_7_6": 0,
+    "authored_wreck_calls": 20,
+    "canonical_markets": 6,
+    "runtime_loose_java_files": 0,
+    "music_source_path_correction": "sounds.json music source now resolves under sounds/unsc_core_continued/music/; discovered during final resource-resolution preflight",
+    "static_validation_note": "Phase 4 implementation is statically sealed only as a test candidate. In-game validation and Phase 4A coexistence/placement evidence remain required before promotion."
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "hullName": "Halberd",
+  "hullId": "unsc_cc_destroyer_halberd",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/unsc_core_continued/ships/unsc_cc_destroyer_halberd.png",
+  "style": "HIGH_TECH",
+  "height": 413,
+  "width": 163,
+  "center": [80.5, 203],
+  "collisionRadius": 222,
+  "shieldCenter": [0.5, -0],
+  "shieldRadius": 220,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "unsc_cc_hull_construction"
+  ],
+  "builtInWeapons": {
+    "WS0011": "unsc_cc_mark_ii_dual_mac"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 175,
+      "angle": 80,
+      "locations": [87, 10.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 175,
+      "angle": -80,
+      "locations": [87.5, -11.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 175,
+      "angle": 80,
+      "locations": [100, 10.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 175,
+      "angle": -80,
+      "locations": [100, -11.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 90,
+      "locations": [-71, 24.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -90,
+      "locations": [-71, -26.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [56, -0.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [34, -0.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [188, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-201, 50],
+      "length": 31.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-201, -52],
+      "length": 31.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-181.5, 27.5],
+      "length": 57.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-181.5, -28.5],
+      "length": 57.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -186.5, -34.5,
+    -203, -42,
+    -203, -59,
+    -155.5, -63,
+    -138, -81.5,
+    -88, -81.5,
+    -64, -44.5,
+    -47, -49.5,
+    16, -45,
+    209, -15.5,
+    209, 15.5,
+    16, 45,
+    -47, 49.5,
+    -64, 44.5,
+    -88, 81.5,
+    -138, 81.5,
+    -155.5, 63,
+    -203, 59,
+    -203, 42,
+    -186.5, 34.5
+  ]
+}

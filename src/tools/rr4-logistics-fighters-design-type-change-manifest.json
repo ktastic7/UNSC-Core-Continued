@@ -1,0 +1,47 @@
+{
+  "candidate": "2.0.0-RR4",
+  "base": "2.0.0-RR3",
+  "scope": {
+    "knownShips_additions": [
+      "buffalo",
+      "colossus",
+      "atlas",
+      "dram",
+      "phaeton",
+      "prometheus",
+      "mercury",
+      "valkyrie"
+    ],
+    "priorityShips_changed": false,
+    "shipsWhenImporting_changed": false,
+    "fighter_autofit_tags": {
+      "unsc_cc_fighter_sabre_wing": [
+        "fighter5",
+        "fighter"
+      ],
+      "unsc_cc_bomber_longsword_wing": [
+        "bomber5",
+        "bomber"
+      ]
+    },
+    "manufacturer_label": {
+      "from": "UNSC",
+      "to": "UNSC Core",
+      "rows": [
+        "unsc_cc_frigate_charon",
+        "unsc_cc_frigate_paris",
+        "unsc_cc_destroyer_halberd",
+        "unsc_cc_carrier_punic",
+        "unsc_cc_cruiser_marathon",
+        "unsc_cc_cruiser_halcyon",
+        "unsc_cc_frigate_strident",
+        "unsc_cc_corvette_mako",
+        "unsc_cc_bomber_longsword",
+        "unsc_cc_fighter_sabre"
+      ]
+    },
+    "technical_ids_changed": false,
+    "save_migration_mapping_changed": false,
+    "rr3_simulator_and_color_behavior_preserved": true
+  }
+}

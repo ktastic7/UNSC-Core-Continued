@@ -1,0 +1,93 @@
+{
+  "hullName": "Mako",
+  "hullId": "unsc_cc_corvette_mako",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/unsc_core_continued/ships/unsc_cc_corvette_mako.png",
+  "style": "MIDLINE",
+  "height": 177,
+  "width": 64,
+  "center": [32, 88.5],
+  "collisionRadius": 110,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 108,
+  "viewOffset": 0,
+  "builtInMods": [
+    "unsc_cc_hull_construction"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 2,
+      "angle": 0,
+      "locations": [78.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [46.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-41, -6]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-41, 6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-86.5, -0],
+      "length": 34,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-76.5, 22],
+      "length": 17.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-76.5, -22],
+      "length": 17.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -86, -32.5,
+    -26, -31.5,
+    5.5, -22,
+    60.5, -18,
+    89, -7,
+    89, 7,
+    60.5, 18,
+    5.5, 22,
+    -26, 31.5,
+    -86, 32.5
+  ]
+}

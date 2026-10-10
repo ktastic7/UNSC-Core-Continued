@@ -1,112 +1,47 @@
 # Releases and Downloads
 
-This page explains the public release files for **United Nations Space Command - Continued**.
+This page explains the public release files for **UNSC Core Continued**.
 
-It does not describe the project's internal development, validation, or release-management process.
+## Normal Download
 
-## Where to Download
+Use the repository's **GitHub Releases** page. The playable package for 2.0.0 is:
 
-Use the repository's **GitHub Releases** page for normal downloads.
+`UNSC Core Continued (2.0.0).zip`
 
-A release normally provides an attached runtime package named like:
+The corresponding Java/development snapshot is:
 
-```text
-United Nations Space Command - Continued (VERSION).zip
-```
+`UNSC Core Continued (2.0.0) - Development Source.zip`
 
-This is the package intended for normal Starsector installation.
+GitHub's automatically generated source archives are repository snapshots and are **not** the normal playable package.
 
-A release may also provide:
+## Legacy-save migration
 
-```text
-United Nations Space Command - Continued (VERSION) - Development Source.zip
-```
+Players migrating an existing UNSC Continued 1.3.1 campaign should also download:
 
-for people who want the corresponding Java source/development snapshot.
+`ST-18-Phase3-B1e-Save-MigratorP1234.rar`
 
-## GitHub "Source code" Archives
+Password: `1234`
 
-GitHub automatically adds:
-
-```text
-Source code (zip)
-Source code (tar.gz)
-```
-
-to tagged releases.
-
-These are automatic snapshots of the Git repository. They are **not** the normal playable Starsector package.
-
-For gameplay, use the attached runtime ZIP whose filename begins:
-
-```text
-United Nations Space Command - Continued
-```
+See [SAVE_MIGRATION_1.3.1_TO_2.0.0.md](SAVE_MIGRATION_1.3.1_TO_2.0.0.md).
 
 ## Installation
 
-1. Download the attached runtime ZIP from the desired release.
-2. Extract its contained mod folder into the Starsector `mods` directory.
-3. Make sure only one copy of UNSC / UNSC Continued is enabled.
-4. Enable LazyLib and any optional supported integrations you use.
-5. Enable **United Nations Space Command - Continued** in the Starsector launcher.
+1. Download the runtime ZIP.
+2. Extract `UNSC Core Continued (2.0.0)` into Starsector's `mods` directory.
+3. Enable LazyLib.
+4. Enable UNSC Core Continued.
+5. Enable optional supported integrations as desired.
 
 ## Release Versions
 
-Git tags use a `v` prefix, for example:
+Git tags use a `v` prefix, such as `v2.0.0`. The in-game version omits it.
 
-```text
-v1.3.1
-```
+## Version Checker Boundary
 
-The in-game mod version omits that prefix:
+Core uses `unsc_core_continued.version`, hosted in this repository.
 
-```text
-1.3.1
-```
-
-Test or pre-release builds, when publicly distributed, may use an additional suffix and may be marked as a GitHub pre-release.
+The legacy `unsc_continued.version` channel remains permanently in the legacy `UNSC-Continued` repository and is not repointed across the save-breaking 1.x -> 2.x boundary.
 
 ## Checksums
 
-Release notes may include SHA-256 checksums for downloadable artifacts.
-
-A checksum can be used to confirm that a downloaded file matches the published release file.
-
-For Windows PowerShell, one way to calculate a SHA-256 hash is:
-
-```powershell
-Get-FileHash "path\to\file.zip" -Algorithm SHA256
-```
-
-Compare the resulting hash with the value shown in the release notes.
-
-## Legacy 1.x Update Boundary
-
-1.3.1 is the final release in the legacy UNSC Continued 1.x technical identity. Its `unsc_continued.version` master remains in this repository. Future Core Continued 2.x releases use a separate repository and version declaration; do not repoint the legacy master across that save-breaking boundary.
-
-## Version Checker
-
-Beginning with 1.03, the mod includes Version Checker-compatible metadata.
-
-The public declaration is:
-
-```text
-unsc_continued.version
-```
-
-and is registered through:
-
-```text
-data/config/version/version_files.csv
-```
-
-This allows compatible Version Checker implementations to identify the current public release.
-
-## Historical Releases
-
-Older release packages may reflect earlier compatibility assumptions or known issues.
-
-Where the changelog marks a version as **Known Broken**, do not use that version as a stable gameplay release.
-
-See [../CHANGELOG.md](../CHANGELOG.md) for the public release history.
+Release notes publish SHA-256 values for runtime, Development Source, and save-migration assets. GitHub Release assets should match the already validated/archived release bytes; do not rebuild or repack solely for GitHub.

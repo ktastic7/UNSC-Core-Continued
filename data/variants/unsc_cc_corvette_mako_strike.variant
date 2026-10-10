@@ -1,0 +1,39 @@
+{
+  "variantId": "unsc_cc_corvette_mako_strike",
+  "hullId": "unsc_cc_corvette_mako",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "unsc_cc_spartan_dew"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "unsc_cc_rampart_pd_coilguns"
+    }
+    },
+	{
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "sabot",
+        "WS0004": "sabot"
+      }
+  }
+  ],
+  "modules": [],
+  "wings": []
+}

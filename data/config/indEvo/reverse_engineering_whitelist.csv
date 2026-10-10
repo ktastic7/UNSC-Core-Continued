@@ -4,14 +4,14 @@ id
 # Ships that would break the game (Balance/Technical/Lore) if the player could produce them via blueprint should not be on this list.
 
 # United Nations Space Command
-unsc_corvette_mako
-unsc_frigate_charon
-unsc_frigate_paris
-unsc_frigate_strident
-unsc_destroyer_halberd
-unsc_carrier_punic
-unsc_cruiser_halcyon
-unsc_cruiser_marathon
+unsc_cc_corvette_mako
+unsc_cc_frigate_charon
+unsc_cc_frigate_paris
+unsc_cc_frigate_strident
+unsc_cc_destroyer_halberd
+unsc_cc_carrier_punic
+unsc_cc_cruiser_halcyon
+unsc_cc_cruiser_marathon
 
 
 

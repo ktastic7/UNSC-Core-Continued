@@ -1,0 +1,24 @@
+{
+  "variantId": "unsc_cc_fighter_sabre_standard",
+  "hullId": "unsc_cc_fighter_sabre",
+  "displayName": "Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "unsc_cc_sabre_light_autocannon",
+        "WS0002": "unsc_cc_sabre_light_autocannon",
+        "WS0003": "unsc_cc_medusa_a2a_missile"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

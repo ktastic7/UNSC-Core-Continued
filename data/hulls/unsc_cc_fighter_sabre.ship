@@ -1,0 +1,94 @@
+{
+  "hullName": "Sabre",
+  "hullId": "unsc_cc_fighter_sabre",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/unsc_core_continued/ships/unsc_cc_fighter_sabre.png",
+  "style": "MIDLINE",
+  "height": 36,
+  "width": 34,
+  "center": [17, 17.5],
+  "collisionRadius": 23,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 22,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "unsc_cc_sabre_light_autocannon",
+    "WS0002": "unsc_cc_sabre_light_autocannon",
+    "WS0003": "unsc_cc_medusa_a2a_missile"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 0,
+      "locations": [-0.5, 7]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": -0,
+      "locations": [-0.5, -7]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 0,
+      "locations": [12, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, 4],
+      "length": 13,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-16, -4],
+      "length": 13,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-11, 12],
+      "length": 7.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-11, -12],
+      "length": 7.5,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    19.5, -0.5,
+    3, -6.5,
+    -0.5, -17,
+    -9.5, -17,
+    -17, -4.5,
+    -17, 4.5,
+    -8.5, 17,
+    0.5, 17,
+    3, 6.5,
+    19.5, 0.5
+  ]
+}

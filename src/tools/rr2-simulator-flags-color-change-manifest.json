@@ -1,0 +1,51 @@
+{
+  "test_identity": "2.0.0-RR2",
+  "base": "2.0.0-RR1 Full Resource Rename runtime-validated baseline",
+  "changes": {
+    "simulator": {
+      "faction_custom_simulatorData_showInSimulator": true,
+      "sim_opponents_csv": "header only; legacy explicit variants removed from Default category"
+    },
+    "faction_color": {
+      "color": [
+        250,
+        250,
+        250,
+        255
+      ],
+      "secondaryUIColor": [
+        98,
+        141,
+        107,
+        255
+      ],
+      "secondarySegments": 3,
+      "baseUIColor": [
+        98,
+        141,
+        107,
+        255
+      ],
+      "darkUIColor": [
+        49,
+        71,
+        54,
+        175
+      ],
+      "gridUIColor": [
+        98,
+        141,
+        107,
+        75
+      ],
+      "precedent": "Knights of Ludd 1.4.0 faction UI pattern, adapted to existing UNSC Core green"
+    },
+    "user_art_replacements": [
+      "unsc_cc_flag.png",
+      "unsc_cc_crest.png",
+      "unsc_cc_package_bp.png"
+    ],
+    "technical_ids_changed": false,
+    "save_migration_changed": false
+  }
+}

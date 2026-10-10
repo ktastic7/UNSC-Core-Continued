@@ -1,0 +1,287 @@
+{
+  "base": "Phase 4A-B2",
+  "candidate": "2.0.0-RR1",
+  "count": 56,
+  "resources": [
+    {
+      "old": "graphics/unsc_core_continued/factions/unsc.png",
+      "new": "graphics/unsc_core_continued/factions/unsc_cc_flag.png",
+      "sha256": "7777eeb13708f6b65f1249fb00bbf4123b668422b2635944449dd9b0123816a3"
+    },
+    {
+      "old": "graphics/unsc_core_continued/factions/unsc_crest.png",
+      "new": "graphics/unsc_core_continued/factions/unsc_cc_crest.png",
+      "sha256": "9c4485cab3b1d1441944b0e8cac1389269d02b695b3e1420c0c0918e7ae0e902"
+    },
+    {
+      "old": "graphics/unsc_core_continued/hullmods/CHM_UNSC.png",
+      "new": "graphics/unsc_core_continued/hullmods/unsc_cc_ai_integration.png",
+      "sha256": "e66b1f3ab2f9254dc5aa86fb9009fedff40f4e3d06311cfc2549191eaebd91a1"
+    },
+    {
+      "old": "graphics/unsc_core_continued/hullmods/UNSC_hullconstruction.png",
+      "new": "graphics/unsc_core_continued/hullmods/unsc_cc_hull_construction.png",
+      "sha256": "81e73cba03a614ae7210fdd470d8aaff8a0bff0c4441c262d7d8312ea6a2c090"
+    },
+    {
+      "old": "graphics/unsc_core_continued/icons/cargo/unsc_package_bp.png",
+      "new": "graphics/unsc_core_continued/icons/cargo/unsc_cc_package_bp.png",
+      "sha256": "f25a3764bd58c39aee5b7f863a1e7ec34505b312f85a95efe67ac680aac727d1"
+    },
+    {
+      "old": "graphics/unsc_core_continued/illustrations/unsc_casimir_station.jpg",
+      "new": "graphics/unsc_core_continued/illustrations/unsc_cc_casimir_station.jpg",
+      "sha256": "9c69dd91bd0bc8bd75add4b4770a1f12d943a25973d70baebb1f402ecc63c058"
+    },
+    {
+      "old": "graphics/unsc_core_continued/illustrations/unsc_reach.jpg",
+      "new": "graphics/unsc_core_continued/illustrations/unsc_cc_reach.jpg",
+      "sha256": "901626973505722aed785c88341d39e051421c6f92527dfcadaf32cefba0acc6"
+    },
+    {
+      "old": "graphics/unsc_core_continued/illustrations/unsc_tribute.jpg",
+      "new": "graphics/unsc_core_continued/illustrations/unsc_cc_tribute.jpg",
+      "sha256": "833b7ffa1140c175002e52fa7134c4a0e854971450ac282c66515a53f14e62a9"
+    },
+    {
+      "old": "graphics/unsc_core_continued/missiles/mac_shell.png",
+      "new": "graphics/unsc_core_continued/missiles/unsc_cc_mac_shell.png",
+      "sha256": "35c066f47a996ef777f3ace852f7dcc05bc438145ed72450d652f51d22144f45"
+    },
+    {
+      "old": "graphics/unsc_core_continued/missiles/missile_harpoon.png",
+      "new": "graphics/unsc_core_continued/missiles/unsc_cc_harpoon_mrm.png",
+      "sha256": "139da28987885e16ee2a3d472ef9fbe4485c43f45a5b3074375972c92a02d2c0"
+    },
+    {
+      "old": "graphics/unsc_core_continued/missiles/shell_small_yellow.png",
+      "new": "graphics/unsc_core_continued/missiles/unsc_cc_pd_ballistic_shot.png",
+      "sha256": "d072526139c925ab2a35047780f4c7789ebbc0f8c275ccd5da1907b38b47a193"
+    },
+    {
+      "old": "graphics/unsc_core_continued/ships/UNSC_Bomber_Longsword.png",
+      "new": "graphics/unsc_core_continued/ships/unsc_cc_bomber_longsword.png",
+      "sha256": "d90cd5bc68f1f2e43d65dd87c1cf30d9a3d3a60e6e9854fed27e60b8584291ff"
+    },
+    {
+      "old": "graphics/unsc_core_continued/ships/UNSC_Carrier_Punic.png",
+      "new": "graphics/unsc_core_continued/ships/unsc_cc_carrier_punic.png",
+      "sha256": "30b619fe4dbe6fdfc311e6ee31648ab13f9270cd722730f67e4fffc51fa48d81"
+    },
+    {
+      "old": "graphics/unsc_core_continued/ships/UNSC_Corvette_Mako.png",
+      "new": "graphics/unsc_core_continued/ships/unsc_cc_corvette_mako.png",
+      "sha256": "3f9c55a1adfcaf382ab1b9a145cccc65a810c8b0ee2c50fcc14c3f7230ad089a"
+    },
+    {
+      "old": "graphics/unsc_core_continued/ships/UNSC_Cruiser_Halcyon.png",
+      "new": "graphics/unsc_core_continued/ships/unsc_cc_cruiser_halcyon.png",
+      "sha256": "def4ecb04742d1cb488d4bf1bdff5e7859458c5834acb7cd2d05688308bb9ade"
+    },
+    {
+      "old": "graphics/unsc_core_continued/ships/UNSC_Cruiser_Marathon.png",
+      "new": "graphics/unsc_core_continued/ships/unsc_cc_cruiser_marathon.png",
+      "sha256": "a6822eead7577638392c8e735687bb957bc6ca15703373a0fa241bec87a8276e"
+    },
+    {
+      "old": "graphics/unsc_core_continued/ships/UNSC_Destroyer_Halberd.png",
+      "new": "graphics/unsc_core_continued/ships/unsc_cc_destroyer_halberd.png",
+      "sha256": "799438338b15dc59daf53e15cd0e7b126a510818f4f39236b85312f243ef0d6e"
+    },
+    {
+      "old": "graphics/unsc_core_continued/ships/UNSC_Fighter_Sabre.png",
+      "new": "graphics/unsc_core_continued/ships/unsc_cc_fighter_sabre.png",
+      "sha256": "f5fddd9982c76831eb6fc1a7ddbdb423629ecaea9a893ccabee6315b6503f887"
+    },
+    {
+      "old": "graphics/unsc_core_continued/ships/UNSC_Frigate_Charon.png",
+      "new": "graphics/unsc_core_continued/ships/unsc_cc_frigate_charon.png",
+      "sha256": "9950d3c7a3701df3735c9ecb5c094f53916b74fe4d006e850fa26e744ea1d1be"
+    },
+    {
+      "old": "graphics/unsc_core_continued/ships/UNSC_Frigate_Paris.png",
+      "new": "graphics/unsc_core_continued/ships/unsc_cc_frigate_paris.png",
+      "sha256": "2e53e3a6c7ac83f044e4c40919ad844315953e59ff42efb5fe71428720b2cd7b"
+    },
+    {
+      "old": "graphics/unsc_core_continued/ships/UNSC_Frigate_Strident.png",
+      "new": "graphics/unsc_core_continued/ships/unsc_cc_frigate_strident.png",
+      "sha256": "93e060d6b1fe291cf7581ff4c748455e3e96416a04775c6a365d3909ecbe5428"
+    },
+    {
+      "old": "graphics/unsc_core_continued/weapons/UNSC_Frigate_duallightmac.png",
+      "new": "graphics/unsc_core_continued/weapons/unsc_cc_mark_ii_dual_mac.png",
+      "sha256": "2d76ee1b71521d6176096d1f9857c20f880b1f6245743fa5f23bf1416c80391e"
+    },
+    {
+      "old": "graphics/unsc_core_continued/weapons/UNSC_Frigate_lightmac.png",
+      "new": "graphics/unsc_core_continued/weapons/unsc_cc_frigate_light_mac.png",
+      "sha256": "2d76ee1b71521d6176096d1f9857c20f880b1f6245743fa5f23bf1416c80391e"
+    },
+    {
+      "old": "graphics/unsc_core_continued/weapons/launcher_m4_2x_hardpoint_base.png",
+      "new": "graphics/unsc_core_continued/weapons/unsc_cc_launcher_m4_2x_hardpoint_base.png",
+      "sha256": "6a4cd901e22fddc240c8a83c78f2576ed65c7ddecd87cd3dd1d314c05cf70a25"
+    },
+    {
+      "old": "graphics/unsc_core_continued/weapons/launcher_m4_2x_turret_base.png",
+      "new": "graphics/unsc_core_continued/weapons/unsc_cc_launcher_m4_2x_turret_base.png",
+      "sha256": "ba650c839348922dc289a847d70115e64e8d912fc98afa556b455f30a8345b0a"
+    },
+    {
+      "old": "graphics/unsc_core_continued/weapons/unsc_spartan_laser_hardpoint_base.png",
+      "new": "graphics/unsc_core_continued/weapons/unsc_cc_spartan_dew_hardpoint_base.png",
+      "sha256": "66b4103a4e4a2f2db56c4182d69d19ac731e8d60a0e2a86793b3f8216111cfae"
+    },
+    {
+      "old": "graphics/unsc_core_continued/weapons/unsc_spartan_laser_turret_base.png",
+      "new": "graphics/unsc_core_continued/weapons/unsc_cc_spartan_dew_turret_base.png",
+      "sha256": "d50dafc413e7b42ec5b2c01577f9a9ab2b99284367dd04fcad7d30571c90ebe6"
+    },
+    {
+      "old": "graphics/unsc_core_continued/weapons/unscpd_goal_hardpoint_barrel.png",
+      "new": "graphics/unsc_core_continued/weapons/unsc_cc_goalkeeper_pd_hardpoint_barrel.png",
+      "sha256": "5bb4ca9bbcf00dd0199f6a3c48fcfc127fb689176bd98d92a1cae0fe400638f0"
+    },
+    {
+      "old": "graphics/unsc_core_continued/weapons/unscpd_goal_hardpoint_base.png",
+      "new": "graphics/unsc_core_continued/weapons/unsc_cc_goalkeeper_pd_hardpoint_base.png",
+      "sha256": "43ac27f58ceaf0ee346059346003e9d128d80cee12f1b4ff653211e039196b84"
+    },
+    {
+      "old": "graphics/unsc_core_continued/weapons/unscpd_goal_turret_barrel.png",
+      "new": "graphics/unsc_core_continued/weapons/unsc_cc_goalkeeper_pd_turret_barrel.png",
+      "sha256": "5bb4ca9bbcf00dd0199f6a3c48fcfc127fb689176bd98d92a1cae0fe400638f0"
+    },
+    {
+      "old": "graphics/unsc_core_continued/weapons/unscpd_hardpoint_barrel.png",
+      "new": "graphics/unsc_core_continued/weapons/unsc_cc_rampart_pd_hardpoint_barrel.png",
+      "sha256": "1c831c8e70b8463c82c6fd523b4c3b07d36bb159494656cebc34bff9e35ee596"
+    },
+    {
+      "old": "graphics/unsc_core_continued/weapons/unscpd_hardpoint_base.png",
+      "new": "graphics/unsc_core_continued/weapons/unsc_cc_rampart_pd_hardpoint_base.png",
+      "sha256": "c8d828db508d22200c70aefd9400d5d54be687630df961493b3bd445c6cccded"
+    },
+    {
+      "old": "graphics/unsc_core_continued/weapons/unscpd_turret_barrel_watermelon.png",
+      "new": "graphics/unsc_core_continued/weapons/unsc_cc_rampart_pd_turret_barrel.png",
+      "sha256": "7e357d1e73a1a608810ce141134f4ca336aa1d40478c6bf079af44606c4e1252"
+    },
+    {
+      "old": "graphics/unsc_core_continued/weapons/unscpd_turret_base_watermelon.png",
+      "new": "graphics/unsc_core_continued/weapons/unsc_cc_rampart_pd_turret_base.png",
+      "sha256": "ba6a74dc3d6404cf3f30cd2c19b7ceb2f5a6230ea1202dc2edd5633bb0e8e632"
+    },
+    {
+      "old": "sounds/unsc_core_continued/music/ODST_intothebreach.ogg",
+      "new": "sounds/unsc_core_continued/music/unsc_cc_intothebreach.ogg",
+      "sha256": "cf7c7f8ec2073782f62be5fba71c996cc5f093e933436f0e484d97947d4737a5"
+    },
+    {
+      "old": "sounds/unsc_core_continued/music/Reach_ontheprowl.ogg",
+      "new": "sounds/unsc_core_continued/music/unsc_cc_ontheprowl.ogg",
+      "sha256": "10dfcf96c53e2554013026f647694299fdb085b458a8ee8a166101f566e7a684"
+    },
+    {
+      "old": "sounds/unsc_core_continued/music/Reach_powderkeg.ogg",
+      "new": "sounds/unsc_core_continued/music/unsc_cc_powderkeg.ogg",
+      "sha256": "3228534b3885f3b382be6c18e285c416f1ae32443488ed0bd06f1e3bd206dda5"
+    },
+    {
+      "old": "sounds/unsc_core_continued/music/Reach_swordbasecontrol.ogg",
+      "new": "sounds/unsc_core_continued/music/unsc_cc_swordbasecontrol.ogg",
+      "sha256": "c4e10f5d2cb6dcb1915eaa229bfe855c19fe29a47911ecbcd1bd6c2b7d1604af"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/TRVulcan1.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_goalkeeper_pd_fire_01.ogg",
+      "sha256": "5220c88b335e7f4996097f09ef5ed721c4c3537b916d1931b3a6e5c0b74c9a1e"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/TRVulcan2.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_goalkeeper_pd_fire_02.ogg",
+      "sha256": "11b771c7988570476fbf0e4a44196d408cd0edc1dcc9a173da92a489b9fde5f9"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/TRVulcan3.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_goalkeeper_pd_fire_03.ogg",
+      "sha256": "02e2040ad079b15031d1296dea885d747e687c819086a342f57cb295de106c25"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/TRVulcan4.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_goalkeeper_pd_fire_04.ogg",
+      "sha256": "f06552a4d1afa4b046254b3a3e652c74071ee4edb0389d54ac908239d269f2f0"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/TRVulcan5.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_goalkeeper_pd_fire_05.ogg",
+      "sha256": "d333af5c7acfd2950629a6433663e5964985af4b5ff077738fe1e2ba1e3ecdff"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/chargegauss.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_mac_charge.ogg",
+      "sha256": "d296fb9a4d857d4ce60a1fc4fadd1b301deb43a752da1f249e9ffece29d6c70d"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/falcon_turret1.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_sabre_autocannon_fire_01.ogg",
+      "sha256": "b8df57a39629de193c4b73174c7e62f5aede234aaa19f4f8ba8d411a079594ff"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/falcon_turret2.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_sabre_autocannon_fire_02.ogg",
+      "sha256": "c59596986394fdd4aafa60769b78fd06c4c6ac16b98cc58d07731bc24310673f"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/falcon_turret3.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_sabre_autocannon_fire_03.ogg",
+      "sha256": "e004772ee02129dc1ff03812f8e229e3a96cd1e06137465009d6dfb54d3abd19"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/grifle_fire_01.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_mac_fire_01.ogg",
+      "sha256": "45cb85ec3a0167162b06a7464496f841b09977d5c0c7f10cb97ed3e42f343aa6"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/grifle_fire_02.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_mac_fire_02.ogg",
+      "sha256": "b36e69ae1d8c2f4a26ac334589f3e847ecec7770c6c60761fcef996cb0c754c6"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/grifle_fire_03.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_mac_fire_03.ogg",
+      "sha256": "d43dc8289eecaae91919e68de3ca5579470596fe9f93d17e023b0e5e68357c19"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/grifle_fire_04.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_mac_fire_04.ogg",
+      "sha256": "811fc99cae1d2ddf591ced33a9be376e87ae8c7dbfdb2614782c334364ed4993"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/sabre_turretss1.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_rampart_pd_fire_01.ogg",
+      "sha256": "ab3f9993edd225ae3892063604278896123890fa1b5f31a9b112a33b923aafcc"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/sabre_turretss2.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_rampart_pd_fire_02.ogg",
+      "sha256": "08c9ece9a9569640ae261718bfcd18af328ba5fe3613b72454614935a455686c"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/sabre_turretss3.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_rampart_pd_fire_03.ogg",
+      "sha256": "88cbca170771b83fec7dca8639d2648c06175fe79b085bd91471dcdfff7e32be"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/spartanlaser_down1.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_spartan_dew_charge_down.ogg",
+      "sha256": "8be903c127ba9269180898d5557fc431afcb6eefa165f879124f469b7b7edfb6"
+    },
+    {
+      "old": "sounds/unsc_core_continued/weapons/spartanlaser_fire1only.ogg",
+      "new": "sounds/unsc_core_continued/weapons/unsc_cc_spartan_dew_fire.ogg",
+      "sha256": "52f3ef0d53031ffb5570d59f890df146f2cf1bbd808de7a9f4ef25cd43ecb064"
+    }
+  ]
+}

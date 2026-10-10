@@ -1,0 +1,43 @@
+{
+  "variantId": "unsc_cc_frigate_paris_strike",
+  "hullId": "unsc_cc_frigate_paris",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sabotpod",
+        "WS0002": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "unsc_cc_mark_ii_mac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "unsc_cc_rampart_pd_coilguns",
+        "WS0006": "unsc_cc_rampart_pd_coilguns",
+        "WS0009": "unsc_cc_rampart_pd_coilguns",
+		"WS0007": "unsc_cc_goalkeeper_pd_chaingun",
+        "WS0008": "unsc_cc_goalkeeper_pd_chaingun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

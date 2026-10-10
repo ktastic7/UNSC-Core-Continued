@@ -1,5 +1,5 @@
 # ----------------------------------------------------------------------
-# UNSC Continued - Git ignore rules
+# UNSC Core Continued - Git ignore rules
 # ----------------------------------------------------------------------
 
 # Build/output directories
@@ -11,7 +11,7 @@
 /bin/
 
 # Compiled loose Java output.
-# The intentionally tracked runtime JAR at jars/UNSC.jar is NOT ignored.
+# The intentionally tracked runtime JAR at jars/UNSC-Core-Continued.jar is NOT ignored.
 *.class
 
 # Local build configuration / machine-specific paths
@@ -53,6 +53,7 @@ replay_pid*.log
 # Runtime/source ZIPs belong on GitHub Releases and in the authoritative
 # Google Drive archive, not in Git history.
 /United Nations Space Command*.zip
+/UNSC Core Continued*.zip
 /dist/**/*.zip
 /build/**/*.zip
 *.7z
@@ -70,5 +71,5 @@ __pycache__/
 
 # IMPORTANT:
 # Do NOT add a broad "*~" ignore rule.
-# data/weapons/unsc_harpoon_cell.wpn~ is an intentionally tracked dormant
+# data/weapons/unsc_cc_harpoon_cell.wpn~ is an intentionally tracked dormant
 # runtime asset and must remain visible to Git.

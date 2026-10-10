@@ -1,0 +1,40 @@
+{
+  "variantId": "unsc_cc_frigate_charon_logistics",
+  "hullId": "unsc_cc_frigate_charon",
+  "displayName": "Logistics",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "breach"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "unsc_cc_mark_ii_light_mac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "unsc_cc_rampart_pd_coilguns",
+        "WS0002": "unsc_cc_rampart_pd_coilguns",
+        "WS0003": "unsc_cc_rampart_pd_coilguns"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

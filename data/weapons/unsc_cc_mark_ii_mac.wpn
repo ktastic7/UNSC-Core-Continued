@@ -1,0 +1,25 @@
+{
+	"id":"unsc_cc_mark_ii_mac",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"displayArcRadius":1200,
+	"turretSprite":"graphics/unsc_core_continued/weapons/unsc_cc_frigate_light_mac.png",
+	"hardpointSprite":"graphics/unsc_core_continued/weapons/unsc_cc_frigate_light_mac.png",
+	"turretOffsets":[25, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[35, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":65.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":35.0,
+					   "particleDuration":0.75,
+					   "particleCount":50,
+					   "particleColor":[255,120,50,245]},
+	"projectileSpecId":"unsc_cc_mac_shell",  # projectile that will be fired
+	"fireSoundOne":"unsc_cc_mac_charge",
+	"fireSoundTwo":"unsc_cc_mac_fire",
+}

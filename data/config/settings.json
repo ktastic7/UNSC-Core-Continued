@@ -1,15 +1,15 @@
 {
 	"graphics":{
 		"blueprint_packages":{
-			"unsc_package_bp":"graphics/icons/cargo/unsc_package_bp.png",
+			"unsc_cc_package_bp":"graphics/unsc_core_continued/icons/cargo/unsc_cc_package_bp.png",
 		},
 		"illustrations":{
-			"unsc_tribute":"graphics/illustrations/unsc_tribute.jpg",
-			"unsc_reach":"graphics/illustrations/unsc_reach.jpg",
-			"unsc_casimir_station":"graphics/illustrations/unsc_casimir_station.jpg",
+			"unsc_cc_tribute":"graphics/unsc_core_continued/illustrations/unsc_cc_tribute.jpg",
+			"unsc_cc_reach":"graphics/unsc_core_continued/illustrations/unsc_cc_reach.jpg",
+			"unsc_cc_casimir_station":"graphics/unsc_core_continued/illustrations/unsc_cc_casimir_station.jpg",
 		},
 	},
 	"th_one_time_items":[
-		"unsc_package_bp",
+		"unsc_cc_package_bp",
 	],
 }

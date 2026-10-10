@@ -1,0 +1,74 @@
+{
+  "hullName": "Longsword",
+  "hullId": "unsc_cc_bomber_longsword",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/unsc_core_continued/ships/unsc_cc_bomber_longsword.png",
+  "style": "MIDLINE",
+  "height": 51,
+  "width": 62,
+  "center": [31, 30],
+  "collisionRadius": 36,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 35,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "unsc_cc_sabre_light_autocannon",
+    "WS0002": "unsc_cc_asgm_10_strike_missile",
+    "WS0003": "unsc_cc_asgm_10_strike_missile"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [21, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [16, 6]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -0,
+      "locations": [16, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 9.5],
+      "length": 30.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-14, -9.5],
+      "length": 30.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    21, -3,
+    -9.5, -30.5,
+    -28.5, -1.5,
+    -28.5, 1.5,
+    -9.5, 30.5,
+    21, 3
+  ]
+}

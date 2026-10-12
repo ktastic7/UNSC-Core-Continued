@@ -2,6 +2,51 @@
 
 Public release history for **UNSC Core Continued**.
 
+## 2.0.1 — Lancer + Anlace Integration
+
+### New ships
+
+- Added **Lancer-class Heavy Escort Attack Corvette** (`unsc_cc_corvette_lancer`).
+- Added **Anlace-class Advanced Escort Frigate** (`unsc_cc_frigate_anlace`).
+- Added authored Lancer **Escort** and Anlace **Adv Escort** / **E-War** Autofit and fleet variants.
+
+### New weapons
+
+- Added **5D7C2 Light MAC** (`unsc_cc_5d7c2_light_mac`).
+- Added **Streak PD System** (`unsc_cc_streak_pd_system`) plus namespaced projectile.
+- Added **Helios High Energy Laser** (`unsc_cc_helios_high_energy_laser`).
+- Reused validated Core MAC/Rampart/Spartan support assets where the Stargazer source matched existing Core resources instead of duplicating inherited content.
+
+### Autofit, presentation, and art
+
+- Exposed all three new authored variants as player Autofit goals.
+- Shortened Anlace goal names to **Adv Escort** and **E-War** to avoid UI overlap.
+- Replaced the imported Lancer sprite with the cleaned final sprite while preserving its 98x251 canvas/alignment bounds.
+- Standardized all active Core weapon design/manufacturer rows to **UNSC Core**.
+
+### Source-integration cleanup
+
+- Corrected the Lancer source hull-name carryover from `Mako` to `Lancer`.
+- Corrected Anlace EW technical spelling from `warefare` to `warfare` in the Core namespace.
+- Corrected `Helios Hign Energy Laser` to `Helios High Energy Laser`.
+- Lancer and Anlace use the existing `unsc_cc_bp` blueprint-package path; no new blueprint package item was introduced.
+- No Stargazer Java/JAR code is imported by this subset.
+
+### Version/update metadata
+
+- Release version is **2.0.1**.
+- Packaged and remote Version Checker metadata use forum topic **36142**.
+- Core 2.x and legacy 1.x update channels remain separate.
+
+### Compatibility
+
+- Core 2.0.0 saves can continue under 2.0.1 without migration.
+- Existing saves that already consumed the UNSC Blueprint Package may need to obtain/use another package copy to learn the new blueprints.
+- The existing external 1.3.1 -> 2.0.0 migration tool remains the legacy-to-Core migration route because 2.0.1 does not alter the Core namespace.
+- No other Stargazer expansion hulls are included in this release.
+
+---
+
 ## 2.0.0 — First Core Continued Release
 
 ### Technical identity and coexistence

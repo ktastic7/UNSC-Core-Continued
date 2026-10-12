@@ -1,6 +1,6 @@
-# Migrating a UNSC Continued 1.3.1 Save to Core Continued 2.0.0
+# Migrating a UNSC Continued 1.3.1 Save to Core Continued 2.x
 
-Core Continued 2.0.0 uses new technical identities and does not include a permanent legacy-ID alias layer.
+Core Continued 2.x uses new technical identities and does not include a permanent legacy-ID alias layer.
 
 Use the GitHub Release asset:
 
@@ -22,9 +22,11 @@ SHA-256:
 6. Run `Migrate-UNSC-Continued-Save.cmd`.
 7. Use DryRun first if desired, then Apply against the copied 1.3.1 save.
 8. Disable legacy UNSC Continued.
-9. Enable UNSC Core Continued 2.0.0 and LazyLib.
+9. Enable the current UNSC Core Continued 2.x release (2.0.1 at the time of this document) and LazyLib.
 10. Load the migrated save and save normally.
 
 The validated migration process operates on a copied save rather than overwriting the original. A long-lived James Holden campaign was migrated and subsequently used successfully under Core Continued.
+
+The migration establishes the Core 2.x namespace. No separate 2.0.0 -> 2.0.1 save migration is required.
 
 Fresh games remain recommended for the complete fresh-world coexistence/system-placement behavior.

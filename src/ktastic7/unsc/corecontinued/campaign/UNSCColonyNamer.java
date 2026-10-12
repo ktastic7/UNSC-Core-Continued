@@ -57,7 +57,7 @@ public class UNSCColonyNamer implements EveryFrameScript {
     private static final float CHECK_INTERVAL = 15f;
     private static final int PROFILE_REPORT_EVERY_POLLS = 20; // ~5 minutes unpaused
     private static final String PROFILE_PREFIX = "[UNSC-CORE-PROFILE][ColonyNamer]";
-    private static final String PROFILE_MOD_VERSION = "2.0.0";
+    private static final String PROFILE_MOD_VERSION = "2.0.1";
     private static final String NAMER_ARCHITECTURE_VERSION = "1.01h";
 
     private float elapsed = 0f;

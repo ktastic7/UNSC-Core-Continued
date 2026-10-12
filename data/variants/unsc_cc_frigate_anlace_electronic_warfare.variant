@@ -1,0 +1,32 @@
+{
+  "variantId": "unsc_cc_frigate_anlace_electronic_warfare",
+  "hullId": "unsc_cc_frigate_anlace",
+  "displayName": "E-War",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "unsc_cc_helios_high_energy_laser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ioncannon",
+        "WS0003": "ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

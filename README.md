@@ -4,7 +4,7 @@ A continued version of AppleMarineXX's **United Nations Space Command** faction 
 
 **Original mod:** AppleMarineXX  
 **Continued and maintained by:** Kemptastic  
-**Current release:** 2.0.0  
+**Current release:** 2.0.1  
 **Starsector target:** 0.98a-RC8  
 **Loader mod ID:** `unsc_core_continued`  
 **Faction ID:** `unsc_cc`
@@ -20,15 +20,21 @@ Supported optional integration surfaces include Nexerelin, Industrial Evolution,
 
 ## Installation
 
-1. Download `UNSC Core Continued (2.0.0).zip` from the Releases page.
-2. Extract `UNSC Core Continued (2.0.0)` into the Starsector `mods` directory.
+1. Download `UNSC Core Continued (2.0.1).zip` from the Releases page.
+2. Extract `UNSC Core Continued (2.0.1)` into the Starsector `mods` directory.
 3. Enable LazyLib.
 4. Enable **UNSC Core Continued**.
 5. Enable optional supported integrations as desired.
 
+## Updating from Core 2.0.0
+
+Core 2.0.1 keeps the established Core 2.x technical namespace, so **no 2.0.0 -> 2.0.1 save migration is required**.
+
+If an existing campaign already consumed the UNSC Blueprint Package before the new Lancer/Anlace blueprints existed, obtain/use another copy of the package to learn the newly added content.
+
 ## Important: migrating a legacy 1.3.1 save
 
-Core Continued 2.0.0 is a deliberate technical-identity break from the legacy **UNSC Continued 1.3.1** line. Do **not** load an unmigrated 1.3.1 campaign directly under Core 2.0.0.
+Core Continued 2.x is a deliberate technical-identity break from the legacy **UNSC Continued 1.3.1** line. Do **not** load an unmigrated 1.3.1 campaign directly under Core Continued.
 
 Use the separate release asset:
 
@@ -61,17 +67,20 @@ Core uses:
 
 When supported UNSC Reborn is present, Core's system displays as **Epsilon Eridani (Core)** while retaining its own technical identity.
 
-## 2.0.0 highlights
+## 2.0.1 highlights
 
-- Complete Core loader/faction/content/Java/worldgen namespace break from the legacy 1.x line.
-- Namespaced Core graphics/audio resources.
-- Dedicated **UNSC Core** simulator category with a Core-only military roster.
-- Replacement faction flag, crest, and blueprint-package artwork.
-- Green-primary / white-secondary faction presentation.
-- Curated civilian logistics access for non-patrol fleets without making vanilla warships native Core designs.
-- Corrected Sabre/Longsword Autofit classification so player Autofit and NPC fleet inflation can populate authored carrier bays.
-- Core ships and fighters use **UNSC Core** as their design/manufacturer label in Codex and production UI.
-- Nexerelin colony naming and optional Industrial Evolution authored content carried forward under the Core namespace.
+- Adds the **Lancer-class Heavy Escort Attack Corvette**.
+- Adds the **Anlace-class Advanced Escort Frigate**.
+- Adds the **5D7C2 Light MAC**, **Streak PD System**, and **Helios High Energy Laser**.
+- Adds authored Autofit goals for both ships, including compact Anlace **Adv Escort** and **E-War** labels.
+- Uses the cleaned final Lancer sprite while preserving its canvas/alignment geometry.
+- Standardizes active Core weapon design/manufacturer presentation to **UNSC Core**.
+- Carries the existing `unsc_cc_bp` blueprint-package path forward for the new hulls.
+- Carries forum topic **36142** into the packaged and remote Version Checker declaration.
+
+## Core 2.x architecture
+
+The 2.0.0 release established the independent Core technical identity, namespaced graphics/audio resources, Core-only simulator presentation, curated civilian logistics access, corrected Sabre/Longsword carrier Autofit classifications, and pairwise Halo-mod coexistence architecture retained by 2.0.1.
 
 ## Repository layout
 
@@ -110,7 +119,7 @@ When reporting a reproducible issue, include:
 
 ## Credits and permissions
 
-The original mod was created by **AppleMarineXX** and is continued by **Kemptastic** with the original author's permission.
+The original mod was created by **AppleMarineXX** and is continued by **Kemptastic** with the original author's permission. **StargazerRJL (Ryan)** granted permission to integrate/use material from his UNSC Expansion; 2.0.1's Lancer/Anlace integration derives from that authorized source material.
 
 See [CREDITS.md](CREDITS.md) and [PERMISSIONS.md](PERMISSIONS.md).
 

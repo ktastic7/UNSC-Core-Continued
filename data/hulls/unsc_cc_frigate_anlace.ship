@@ -1,0 +1,161 @@
+{
+  "hullName": "Anlace",
+  "hullId": "unsc_cc_frigate_anlace",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/unsc_core_continued/ships/unsc_cc_frigate_anlace.png",
+  "style": "HIGH_TECH",
+  "height": 285,
+  "width": 73,
+  "center": [
+    36,
+    136.5
+  ],
+  "collisionRadius": 205,
+  "shieldCenter": [
+    10.5,
+    -1
+  ],
+  "shieldRadius": 145,
+  "viewOffset": 0,
+  "builtInMods": [
+    "unsc_cc_hull_construction",
+    "hiressensors",
+    "ecm",
+    "phasefield",
+    "delicate",
+    "insulatedengine"
+  ],
+  "builtInWeapons": {
+    "WS0005": "unsc_cc_helios_high_energy_laser"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 147,
+      "angle": 70,
+      "locations": [
+        -2.5,
+        17.5
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -73,
+        -0.5
+      ]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        53,
+        15,
+        54,
+        15,
+        52.5,
+        -31,
+        53.5,
+        -31
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 147,
+      "angle": -70,
+      "locations": [
+        -1.5,
+        -19
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [
+        -132.5,
+        -14.5
+      ],
+      "length": 48,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [
+        -132.5,
+        12
+      ],
+      "length": 48,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    125.5,
+    -15,
+    16,
+    -23.5,
+    -9.5,
+    -32,
+    -33,
+    -32.5,
+    -34.5,
+    -20,
+    -58.5,
+    -21.5,
+    -70.5,
+    -26.5,
+    -104,
+    -28.5,
+    -112,
+    -21,
+    -131.5,
+    -16,
+    -138,
+    -1.5,
+    -130.5,
+    16,
+    -121.5,
+    17.5,
+    -107.5,
+    21,
+    -105,
+    27,
+    -66,
+    24.5,
+    -56,
+    19,
+    -36,
+    19,
+    -36,
+    31.5,
+    -12.5,
+    32,
+    17,
+    22.5,
+    126.5,
+    13,
+    147.5,
+    5,
+    147.5,
+    -5
+  ]
+}

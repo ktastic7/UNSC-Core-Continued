@@ -32,3 +32,5 @@ Sabre Space-Superiority Fighter,unsc_cc_fighter_sabre,Space Superiority Fighter,
 #Heron,heron,Fast Carrier,Midline,targetingfeed,14,6000,750,5000,6000,300,100,3,80,60,40,20,25,800,OMNI,,180,0.5,0.8,,,150,250,90,60,3,20,8,120000,3,12,360,0.25,20,20,,,,,,,CARRIER,"midline_bp, merc",,0.5,2,3,,407
 #Mora,mora,Carrier,Low Tech,damper,15,10000,1250,4000,4000,200,115,3,45,20,10,10,10,2000,OMNI,,150,0.4,1,,,200,300,100,60,4,15,8,125000,4,12,420,0.25,20,20,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT","lowtech_bp, merc",,0.4,2,3,,410
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lancer,unsc_cc_corvette_lancer,Heavy Attack Corvette,UNSC Core,maneuveringjets,8,3200,500,5700,,275,55,,115,70,70,55,110,350,OMNI,,42,0.4,1.2,,,40,75,50,35,1.5,33,10,60000,8,8,360,0.25,9,8,,,,,,,,"unsc_cc_bp, unsc_cc",,0.8,2,3,,20769
+Anlace,unsc_cc_frigate_anlace,Frigate,UNSC Core,emp,11,2800,600,6000,,850,65,0,95,83,30,30,30,570,FRONT,,130,0.3,0.7,,,70,130,60,40,2,50,9,110000,4,14,420,0.25,12,18,,,,,,,,"unsc_cc_bp, unsc_cc",,0.6,2,3,,15769

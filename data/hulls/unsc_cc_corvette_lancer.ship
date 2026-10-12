@@ -1,0 +1,146 @@
+{
+  "hullName": "Lancer",
+  "hullId": "unsc_cc_corvette_lancer",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/unsc_core_continued/ships/unsc_cc_corvette_lancer.png",
+  "style": "MIDLINE",
+  "height": 251,
+  "width": 98,
+  "center": [
+    49,
+    108.5
+  ],
+  "collisionRadius": 110,
+  "shieldCenter": [
+    0.5,
+    0.5
+  ],
+  "shieldRadius": 146,
+  "viewOffset": 0,
+  "builtInMods": [
+    "unsc_cc_hull_construction"
+  ],
+  "builtInWeapons": {
+    "WS0004": "unsc_cc_5d7c2_light_mac"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [
+        -43,
+        0
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [
+        118,
+        0
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [
+        -109,
+        -34.5
+      ],
+      "length": 41.5,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [
+        -99.5,
+        -7
+      ],
+      "length": 17.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [
+        -99.5,
+        7
+      ],
+      "length": 17.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [
+        -108.5,
+        35
+      ],
+      "length": 41.5,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    47,
+    42,
+    51.5,
+    22,
+    66,
+    14.5,
+    132.5,
+    10,
+    132.5,
+    -10,
+    66,
+    -14.5,
+    51.5,
+    -22,
+    47,
+    -42,
+    -109,
+    -50,
+    -109.5,
+    -28.5,
+    -95.5,
+    -19,
+    -103.5,
+    -8,
+    -104.5,
+    7.5,
+    -95.5,
+    20.5,
+    -109.5,
+    28.5,
+    -109,
+    50,
+    -57.5,
+    48
+  ]
+}

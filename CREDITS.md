@@ -14,6 +14,11 @@ Current maintainer of **UNSC Core Continued**.
 
 The continuation is maintained with permission from the original author.
 
+### UNSC Expansion Source Material
+**StargazerRJL (Ryan)**
+
+Author of the unofficial UNSC Expansion used as authorized source material for selected continued-development integrations. Core Continued 2.0.1 integrates the Lancer and Anlace families and their bounded dependent content from that source, adapted into the Core namespace and current project architecture with permission from StargazerRJL/Ryan.
+
 ## Starsector
 **Starsector** is created by **Fractal Softworks**.
 
@@ -36,6 +41,6 @@ The UNSC, Halo setting, and related names, imagery, audio, concepts, trademarks,
 UNSC Core Continued is a non-commercial fan project and is not affiliated with or endorsed by Microsoft, Fractal Softworks, or the relevant rights holders.
 
 ## Original and Third-Party Assets
-The repository contains material inherited from the original mod as well as material derived from or inspired by the Halo setting. Original authorship, third-party ownership, and any asset-specific credits remain applicable even when files are modified during continued maintenance.
+The repository contains material inherited from the original mod, authorized material from StargazerRJL's UNSC Expansion, and material derived from or inspired by the Halo setting. Original authorship, third-party ownership, and asset-specific credits remain applicable even when files are modified during continued maintenance.
 
 If a specific asset requires an additional attribution that is missing here, please open an issue so the credit record can be corrected.

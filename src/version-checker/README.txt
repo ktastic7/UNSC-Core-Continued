@@ -1,4 +1,4 @@
-Version Checker support - UNSC Core Continued 2.0.0
+Version Checker support - UNSC Core Continued 2.0.1
 ==================================================
 
 Runtime registration:
@@ -11,8 +11,8 @@ https://raw.githubusercontent.com/ktastic7/UNSC-Core-Continued/HEAD/unsc_core_co
 Current declaration:
 - major: 2
 - minor: 0
-- patch: 0
-- modThreadId: 0
+- patch: 1
+- modThreadId: 36142
 - modNexusId: 0
 
 This Core 2.x update channel is deliberately separate from the frozen legacy
